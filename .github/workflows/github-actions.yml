@@ -3,8 +3,12 @@ on: [push]
 jobs:
   install-build:
    runs-on: ubuntu-latest
+
    steps:
     - uses: actions/checkout@v2
-    - uses: borales/actions-yarn@latest
-    - run: yarn install
-    - run: yarn build
+    - uses: actions/setup-node@v1
+    - run: npm install -g yarn
+    - name: install and build app
+      run: 
+       yarn install
+       yarn build
