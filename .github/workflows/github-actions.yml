@@ -1,6 +1,6 @@
 name: github-actions
 on: [push]
- jobs:
+jobs:
   install-build:
    runs-on: windows-latest
    steps:
