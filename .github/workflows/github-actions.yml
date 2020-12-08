@@ -10,5 +10,5 @@ jobs:
     - run: npm install -g yarn
     - name: install and build app
       run: 
-       yarn install
+       yarn
        yarn build
