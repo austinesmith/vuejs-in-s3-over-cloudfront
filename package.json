@@ -10,7 +10,7 @@
     "synth": "yarn --cwd \"./packages/aws-cdk\" cdk synth",
     "build+synth": "yarn --cwd \"./packages/vuejs-app\" build && yarn --cwd \"./packages/aws-cdk\" cdk synth",
     "install+build+synth": "yarn install && yarn --cwd \"./packages/vuejs-app\" build && yarn --cwd \"./packages/aws-cdk\" cdk synth",
-    "deploy": "yarn --cwd \"./packages/aws-cdk\" cdk deploy",
+    "deploy": "yarn --cwd \"./packages/aws-cdk\" cdk deploy --require-approval never",
     "destroy": "yarn --cwd \"./packages/aws-cdk\" cdk destroy -f",
     "synth+deploy": "yarn --cwd \"./packages/aws-cdk\" cdk synth && yarn --cwd \"./packages/aws-cdk\" cdk deploy",
     "build+deploy": "yarn --cwd \"./packages/vuejs-app\" build && yarn --cwd \"./packages/aws-cdk\" cdk deploy --require-approval never",
