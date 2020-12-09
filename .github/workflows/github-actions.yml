@@ -11,6 +11,13 @@ jobs:
     - run: yarn
     - run: yarn build
     - run: yarn synth
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-1
+    - run: yarn deploy
 #    - name: AWS CDK Deploy
 #      uses:
 #      with:
