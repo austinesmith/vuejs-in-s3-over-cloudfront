@@ -2,6 +2,7 @@ import * as cdk from '@aws-cdk/core';
 import * as s3 from '@aws-cdk/aws-s3';
 import * as s3Deployment from '@aws-cdk/aws-s3-deployment';
 import { CfnOutput } from '@aws-cdk/core';
+import * as cloudfront from '@aws-cdk/aws-cloudfront';
 // install cmd: 'npm i @aws-cdk/aws-s3-deployment'
 
 export class AwsCdkStack extends cdk.Stack {
@@ -28,10 +29,37 @@ export class AwsCdkStack extends cdk.Stack {
       destinationBucket: myBucket
    });
 
+   const distribution = new cloudfront.CloudFrontWebDistribution(this, 'cdk-example-cfront', {
+    originConfigs: [
+      {
+        s3OriginSource: {
+          s3BucketSource: myBucket
+        },
+        behaviors : [ {isDefaultBehavior: true}]
+      }
+    ],
+//    aliasConfiguration: {
+//      acmCertRef: certificateArn,
+//      names: ['cdk-example.awsexamples.dev']
+//    }
+  });
+
+//   const myDistribution = new cloudfront.Distribution(this, "cdk-cloudfront", {
+//    originConfigs: [
+//      s3OriginSource: {
+//        s3BucketSource: myBucket
+//      },
+//      behaviors : [ {isDefaultBucket: true}]
+//    }
+//    ]
+//   });
+
    // return for website URL
    new CfnOutput(this, "URL", {
      description: "publicly accessible url",
      value: myBucket.bucketWebsiteUrl
    });
   }
+
+
 }
