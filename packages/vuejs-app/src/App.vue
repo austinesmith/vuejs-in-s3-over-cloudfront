@@ -1,6 +1,6 @@
 <template>
-  <v-app>
-    dark
+  <v-app dark>
+
     <v-app-bar
       app
       flat
@@ -10,6 +10,8 @@
     </v-app-bar>
     <v-content>
       <Carousel/>
+      <Education/>
+      <Certifications/>
     </v-content>
     <v-main>
       
@@ -20,13 +22,17 @@
 <script>
 import Header from './components/Header';
 import Carousel from './components/Carousel';
+import Education from './components/Education';
+import Certifications from './components/Certifications';
 
 export default {
   name: 'App',
 
   components: {
     Header,
-    Carousel
+    Carousel,
+    Education,
+    Certifications
   },
 
   data: () => ({
