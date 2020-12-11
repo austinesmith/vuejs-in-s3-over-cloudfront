@@ -59,6 +59,11 @@ export class AwsCdkStack extends cdk.Stack {
      description: "publicly accessible url",
      value: myBucket.bucketWebsiteUrl
    });
+
+   new CfnOutput(this, "CFDomainName", {
+    description: "publicly accessible cloudfront domain name",
+    value: distribution.distributionDomainName
+  });
   }
 
 
