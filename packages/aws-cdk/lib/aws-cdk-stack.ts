@@ -11,7 +11,7 @@ export class AwsCdkStack extends cdk.Stack {
 
     // The code that defines your stack goes here
     // create bucket
-    const myBucket = new s3.Bucket(this, "WebsiteBucketForMonoRepoDemo", {
+    const myBucket = new s3.Bucket(this, "WebsiteBucketForPortfolio", {
       // allow bucket to access to public internet
       publicReadAccess: true,
       // switched RemovalPolicy.RETAIN retains the bucket in s3
