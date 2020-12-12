@@ -32,7 +32,7 @@
         text
         @click="show = !show"
       >
-        Links:
+        Related Links:
       </v-btn>
 
       <v-spacer></v-spacer>

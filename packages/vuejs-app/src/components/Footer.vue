@@ -40,13 +40,13 @@
         The AWS CDK automatically provisions an S3 bucket for static hosting behind the CloudFront Content Delivery Network.
         It uses Yarn as a package manager and Yarn Workspaces to create a monolithic repository. 
         Changes are tracked by Git and Github Actions are used for continuous deployment. 
-        <a href=https://github.com/austinesmith/vuejs-in-s3-over-cloudfront>View: Github Repository</a>
+        <a href=https://github.com/austinesmith/vuejs-in-s3-over-cloudfront>[View: This Repository]</a>
       </v-card-text>
 
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Austin Smith</strong>
+        ISC {{ new Date().getFullYear() }} — <strong>Austin Smith</strong>
       </v-card-text>
     </v-card>
     
@@ -69,7 +69,8 @@ export default {
   data: () => ({
       icons: [
         'mdi-github',
-        'mdi-linkedin'
+        'mdi-linkedin',
+        'mdi-email'
       ],
     }),
 };
