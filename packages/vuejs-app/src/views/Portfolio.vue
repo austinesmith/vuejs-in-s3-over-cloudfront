@@ -59,8 +59,16 @@
         </v-expansion-panel-header>
           
         <v-expansion-panel-content>
-          <v-card >
-          Welcome to my page.
+          <v-card>
+          Welcome to my portfolio page.  I enjoy a variety of computer related tasks so I figured I'd make a project to showcase what I've been working on recently.  
+          I started young with graphic design and it eventually branched in to many different things.  But lately, I've discovered a passion for AWS and cloud computing.
+          The arguments behind adopting the cloud and the strategies for designing the appropriate infrastructures are not only compelling, they're incredibly interesting.
+          The most interesting aspect I see in a programming career is being challenged to find new ways to leverage automation, learning new technologies, and helping others learn.
+          I am also a strong advocate for security and privacy.  My favorite class in college was cryptography.  It was challenging, but entertaining.  I also liked to challenge myself in school by attempting topics I wasn't comfortable with.
+          For instance, I was a Cybersecurity major, but I chose to take Software Engineering as an elective even though I knew the capstone for Computer Science wasn't going to be easy.
+          For my final report in Operating Systems I chose to study distributed systems not expecting it to be easy and it turned out to be fascinating.  Also, I could have wrote about web design and 
+          floated threw my Technical Writing class, but I chose networking because I thought it was a weak area for me.  It is frustrating to try and fail over and over again,
+          but when you finally overcome the challenge and evolve as a person, there is no better feeling.  
           </v-card>
         </v-expansion-panel-content>
 

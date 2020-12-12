@@ -74,7 +74,9 @@
         </v-expansion-panel-header>
           
         <v-expansion-panel-content>
-          <v-card >
+          <v-card 
+            flat
+          >
 
             <!-- Form -->
               <v-form
