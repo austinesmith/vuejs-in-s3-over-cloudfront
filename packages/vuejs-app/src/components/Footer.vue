@@ -35,11 +35,11 @@
       </v-card-text>
 
       <v-card-text class="white--text pt-0">
-        This web application was created with Vuetify, a JavaScript component manager powered by Vue.js. 
+        This web SPA was created with Vuetify, a JavaScript component manager powered by Vue.js. 
         It uses the AWS Cloud Development Kit with TypeScript for automated deployment to Amazon Web Services. 
         The AWS CDK automatically provisions an S3 bucket for static hosting behind the CloudFront Content Delivery Network.
         It uses Yarn as a package manager and Yarn Workspaces to create a monolithic repository. 
-        Changes are tracked by Git and Github Actions are used for continuous deployment on push. 
+        Changes are tracked by Git and Github Actions are used for continuous deployment. 
         <a href=https://github.com/austinesmith/vuejs-in-s3-over-cloudfront>View: Github Repository</a>
       </v-card-text>
 
