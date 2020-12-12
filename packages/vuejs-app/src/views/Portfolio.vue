@@ -1,15 +1,15 @@
 <template>
   <v-content>
   <v-container>
-    <v-expansion-panels dark focusable multiple class="mb-6">
+    <v-expansion-panels dark multiple class="mb-0">
 
+      
       <!-- About me -->
-      <v-expansion-panel
-      >
-        <v-expansion-panel-header expand-icon="mdi-menu-down">
-          About Me
+      <v-expansion-panel>
+        <v-expansion-panel-header expand-icon="mdi-menu-down" color="#424242" class="overline">
+          <b>About Me</b>
         </v-expansion-panel-header>
-
+          
         <v-expansion-panel-content>
           <v-card >
           Welcome to my page.
@@ -21,8 +21,8 @@
       <!-- Projects -->
       <v-expansion-panel
       >
-        <v-expansion-panel-header expand-icon="mdi-menu-down">
-          Projects
+        <v-expansion-panel-header expand-icon="mdi-menu-down" color="#424242" class="overline">
+          <b>Projects</b>
         </v-expansion-panel-header>
 
         <v-expansion-panel-content>
@@ -36,8 +36,8 @@
       <!-- Education -->
       <v-expansion-panel
       >
-        <v-expansion-panel-header expand-icon="mdi-menu-down">
-          Education
+        <v-expansion-panel-header expand-icon="mdi-menu-down" color="#424242" class="overline">
+          <b>Education</b>
         </v-expansion-panel-header>
 
         <v-expansion-panel-content>
@@ -51,8 +51,8 @@
       <!-- Certifications -->
       <v-expansion-panel
       >
-        <v-expansion-panel-header expand-icon="mdi-menu-down">
-          Certifications
+        <v-expansion-panel-header expand-icon="mdi-menu-down" color="#424242" class="overline">
+          <b>Certifications</b>
         </v-expansion-panel-header>
 
         <v-expansion-panel-content>
@@ -67,8 +67,8 @@
       <!-- Skills -->
       <v-expansion-panel
       >
-        <v-expansion-panel-header expand-icon="mdi-menu-down">
-          Skills
+        <v-expansion-panel-header expand-icon="mdi-menu-down" color="#424242" class="overline">
+          <b>Skills</b>
         </v-expansion-panel-header>
 
         <v-expansion-panel-content enabled>

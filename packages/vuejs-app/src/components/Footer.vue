@@ -17,15 +17,18 @@
       flat
       tile
       class="white--text text-center"
+      color="#272727"
     >
       <v-card-text>
         <v-btn
           v-for="icon in icons"
           :key="icon"
-          class="mx-4 white--text"
+          class="mx-8 white--text"
           icon
         >
-          <v-icon size="24px">
+          <v-icon size="40px"
+            class="my-8"
+          >
             {{ icon }}
           </v-icon>
         </v-btn>
