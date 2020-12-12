@@ -1,6 +1,6 @@
 // application
 .v-application {
-  background: $white !important;
+
   font: 300 #{$base-font-size}/#{$base-line-height} $base-font-family;
   font-weight: 300;
 
@@ -8,11 +8,7 @@
     max-width: 1200px;
   }
 
-  .responsiveMenu {
-    a {
-      color: $black;
-    }
-  }
+
 }
 
 // block

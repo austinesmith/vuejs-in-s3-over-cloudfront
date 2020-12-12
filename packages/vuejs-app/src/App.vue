@@ -1,6 +1,7 @@
 <template>
-  <v-app dark>
-
+  <!--<div id="app">-->
+    
+  <v-app>
     <v-app-bar
       app
       flat
@@ -8,31 +9,36 @@
     >
       <Header/>
     </v-app-bar>
-    <v-content>
-      <Carousel/>
-      <Education/>
-      <Certifications/>
-    </v-content>
-    <v-main>
-      
-    </v-main>
+
+    <router-view></router-view>
+
+    <v-footer>
+      <Footer/>
+    </v-footer>
+
   </v-app>
+ <!-- </div> -->
+ 
 </template>
 
 <script>
 import Header from './components/Header';
-import Carousel from './components/Carousel';
-import Education from './components/Education';
-import Certifications from './components/Certifications';
+//import Carousel from './components/Carousel';
+//import Education from './components/Education';
+//import Certifications from './components/Certifications';
+import Footer from './components/Footer';
+//import ExpansionPanel from './components/ExpansionPanel'
 
 export default {
   name: 'App',
 
   components: {
     Header,
-    Carousel,
-    Education,
-    Certifications
+    //Carousel,
+    //Education,
+    //Certifications,
+    Footer,
+    //ExpansionPanel
   },
 
   data: () => ({
