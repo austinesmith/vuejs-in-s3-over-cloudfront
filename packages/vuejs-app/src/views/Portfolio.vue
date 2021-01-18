@@ -4,13 +4,13 @@
 
     <v-card
     class="mb-3"
-    tile
   >
     <!-- start col -->
     <v-container>
     <v-row no-gutters>
       <v-col md="4">
 
+    
     <v-img
     max-height="200px"
     max-width="500px"
@@ -18,6 +18,7 @@
       src="../assets/card-images/austin.jpg"
     >
     </v-img>
+    
 
       </v-col>
       <v-col md="8" class="text-center">
@@ -59,16 +60,31 @@
         </v-expansion-panel-header>
           
         <v-expansion-panel-content>
-          <v-card>
-          Welcome to my portfolio page.  I enjoy a variety of computer related tasks so I figured I'd make a project to showcase what I've been working on recently.  
-          I started young with graphic design and it eventually branched in to many different things.  But lately, I've discovered a passion for AWS and cloud computing.
-          The arguments behind adopting the cloud and the strategies for designing the appropriate infrastructures are not only compelling, they're incredibly interesting.
-          The most interesting aspect I see in a programming career is being challenged to find new ways to leverage automation, learning new technologies, and helping others learn.
-          I am also a strong advocate for security and privacy.  My favorite class in college was cryptography.  It was challenging, but entertaining.  I also liked to challenge myself in school by attempting topics I wasn't comfortable with.
-          For instance, I was a Cybersecurity major, but I chose to take Software Engineering as an elective even though I knew the capstone for Computer Science wasn't going to be easy.
-          For my final report in Operating Systems I chose to study distributed systems not expecting it to be easy and it turned out to be fascinating.  Also, I could have wrote about web design and 
-          floated threw my Technical Writing class, but I chose networking because I thought it was a weak area for me.  It is frustrating to try and fail over and over again,
-          but when you finally overcome the challenge and evolve as a person, there is no better feeling.  
+          <v-card flat>
+          <br>Welcome to the developer portfolio page of Austin Smith.  This website is a Vue.js SPA (single page application) and is automatically deployed with AWS CDK (Amazon Web Services Cloud Developer Kit).  It is being used to showcase my skills and what I've been working on recently.
+          The summary about the methodologies used in this project, as well as the source code, can be viewed in the footer.<br><br>
+
+          I have been a computer hobbyist all my life which has helped me sharpen skills in security, design, and development.  My current career path is to work with Amazon Web Services professionally.  My goal is to become an AWS Cloud Engineer or Solutions Architect.
+          I do development work using AWS in my free time so that my skills are constantly improving.  I genuinely enjoy the work.  The arguments behind adopting the cloud are not only compelling, they're incredibly interesting.<br><br>
+          
+          I'm always chasing a goal in my life and I'm very driven to accomplish them.  Or I'm taking steps to learn new information and skills and evolve myself as a person.  When I'm not behind a screen I enjoy being productive by doing DiY projects or helping others.  
+          I always make an attempt to fix a problem on my own, no matter what the problem is.  I also like finding entertaining ways to better myself, like choosing documentaries instead of fiction.  There is no greater feeling than basking in the glory of your accomplishments!<br><br>
+          
+          My favorite way to unwind is to visit the great outdoors with my best friend; my dog Forest.  He's a golden-retriever/border-collie mix and a gift to the earth.  I also love traveling, cooking great food, meeting new people, and riding my motorcycle.<br><br>
+          
+         
+          <v-card
+          max-width="400px"
+          >
+          <expandable-image
+      class="image"
+      max-height="200px"
+      :src="require('../assets/card-images/forest.jpg')"
+      alt="Dog"
+      title="Forest"
+    ></expandable-image>
+          </v-card>
+
           </v-card>
         </v-expansion-panel-content>
 
@@ -82,10 +98,54 @@
         </v-expansion-panel-header>
 
         <v-expansion-panel-content>
-          <v-card >
-          Vue.js!
+          
+          
+      <v-row dense>
+        <v-col cols="12">
+          <v-card
+            color="#121212"
+            dark
+          >
+
+              <div class="d-flex flex-no-wrap justify-space-between">
+              <div>
+
+            <v-card-title class="headline">
+              Digital Art
+            </v-card-title>
+
+            <v-card-subtitle>This is a collection of professional logos I've designed and created from scratch. These were created as a hobby in Adobe Photoshop. If you like these designs feel free to contact me for a commission.</v-card-subtitle>
+
+            <v-card-actions>
+              <v-btn 
+                text
+                class="ml-2 mt-5"
+                outlined
+                to=""
+              >
+                <router-link to="/Logos">View Digital Art</router-link>
+              </v-btn>
+            </v-card-actions>
+
+              </div>
+
+              <v-avatar
+                class="ma-5"
+                size="150"
+                tile
+              >
+                <v-img src="../assets/card-images/photoshop.png"></v-img>
+              </v-avatar>
+            </div>
+
           </v-card>
+        </v-col>
+        
+      </v-row>
+    
+          
         </v-expansion-panel-content>
+
 
       </v-expansion-panel>
 
@@ -99,9 +159,10 @@
         <v-expansion-panel-content>
           <!-- <v-container> -->
             <v-card
-    class="mx-auto"
+    class="mx"
     max-width="100%"
     rounded
+    flat
   >
 
   <v-row no-gutters><v-col>
@@ -117,10 +178,18 @@
 
     </v-card-text>
     </v-col><v-col md="3">
-    <v-img
-      class="white--text align-end"
-      src="../assets/card-images/degree.jpg"
-    ></v-img>
+
+    
+
+    <expandable-image
+      class="image"
+      :src="require('../assets/card-images/degree.jpg')"
+      alt="Cybersecurity Degree"
+      title="UNO Cybersecurity Degree"
+    ></expandable-image>
+    
+
+
       </v-col>
       </v-row>
   </v-card>
@@ -142,11 +211,14 @@
            <v-card
     class="mx-auto"
   >
-    <v-img
-      class="white--text align-end"
-      height="150px"
-      src="../assets/card-images/ccp.jpg"
-    ></v-img>
+
+
+    <expandable-image
+      class="image"
+      :src="require('../assets/card-images/ccp.jpg')"
+      alt="AWS Certification"
+      title="AWS Certified Cloud Practitioner"
+    ></expandable-image>
 
       <v-card-title>AWS Certified Cloud Practitioner</v-card-title>
     
@@ -163,13 +235,14 @@
             <v-card
     class="mx-auto"
   >
-    <v-img
-      class="white--text align-end"
-      height="150px"
-      src="../assets/card-images/saa.jpg"
-    ></v-img>
+    <expandable-image
+      class="image"
+      :src="require('../assets/card-images/saa.jpg')"
+      alt="AWS Certification"
+      title="AWS Certified Solutions Architect - Associate"
+    ></expandable-image>
 
-      <v-card-title>AWS Certified Solutions Architect - Associate</v-card-title>
+      <v-card-title>AWS Certified Solutions Architect</v-card-title>
     
 
     <v-card-subtitle class="pb-0">
@@ -194,9 +267,24 @@
         </v-expansion-panel-header>
 
         <v-expansion-panel-content enabled>
-          <v-card >
-          Juggling<br>
-          Eating
+          <v-card flat>
+            <v-card-text class="text--primary; justify-center">
+              <ul>
+                <div><li>Using JavaScript, Vue.js, and Vuetify to create responsive user interfaces</li></div>
+      
+                <div><li>Building infrastructure and serverless applications using CDK and CloudFormation in AWS</li></div>
+
+                <div><li>Experience writing Java, C, scripts, and using the command line interface</li></div>
+
+                <div><li>Knowledgeable in best practices for ensuring information security</li></div>
+
+                <div><li>Experience with databases and SQL</li></div>
+
+                <div><li>Working in teams by following development lifecycles, using Git, and code reviews</li></div>
+
+                <div><li>Using Yarn and NPM to manage project dependencies and GitHub Actions for CI/CD</li></div>
+              </ul>
+    </v-card-text>
           </v-card>
         </v-expansion-panel-content>
 
@@ -209,7 +297,7 @@
 </template>
 
 <script>
-//import
+
 
 export default {
   name: 'Portfolio',
@@ -218,7 +306,21 @@ export default {
   },
 
   data: () => ({
-    //
-  }),
+      items: [
+        {
+          color: '#1F7087',
+          src: 'https://cdn.vuetifyjs.com/images/cards/foster.jpg',
+          title: 'Supermodel',
+          artist: 'Foster the People',
+        },
+        {
+          color: '#121212',
+          src: 'https://cdn.vuetifyjs.com/images/cards/halcyon.png',
+          title: 'Logo Design',
+          artist: 'A collection of professional logos I\'ve designed and created from scratch.  Designing logos is a hobby of mine.  These were created with Adobe Photoshop.  If you like these designs you may contact me for commission.',
+        },
+      ],
+    }),
+  
 };
 </script>

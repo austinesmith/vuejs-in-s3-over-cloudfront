@@ -12,6 +12,7 @@
     "sass": "^1.30.0",
     "sass-loader": "^10.1.0",
     "vue": "^2.6.11",
+    "vue-expandable-image": "^0.1.0",
     "vue-router": "^3.4.9",
     "vuetify": "^2.3.21"
   },

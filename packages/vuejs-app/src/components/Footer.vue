@@ -9,11 +9,13 @@
     <!-- <div style="flex-basis: 0%"> 
       class="ma-0 pa-0"-->
     <v-footer
+      class="mx-6"
       padless
     >
 
     <!-- <div margin="25px"> -->
     <v-card
+    
       flat
       tile
       class="white--text text-center"
@@ -21,32 +23,64 @@
     >
       <v-card-text>
         <v-btn
-          v-for="icon in icons"
-          :key="icon"
           class="mx-8 white--text"
           icon
+          href="https://github.com/austinesmith"
+          target="_blank"
         >
           <v-icon size="40px"
             class="my-8"
           >
-            {{ icon }}
+            mdi-github
           </v-icon>
         </v-btn>
+
+        <v-btn
+          class="mx-8 white--text"
+          icon
+          href="https://www.linkedin.com/in/austinfosec/"
+          target="_blank"
+        >
+          <v-icon size="40px"
+            class="my-8"
+          >
+            mdi-linkedin
+          </v-icon>
+        </v-btn>
+
+        <v-btn
+          class="mx-8 white--text"
+          icon
+          href="mailto:austinfosec@gmail.com"
+          target="_blank"
+        >
+          <v-icon size="40px"
+            class="my-8"
+          >
+            mdi-email
+          </v-icon>
+        </v-btn>
+
+
       </v-card-text>
 
       <v-card-text class="white--text pt-0">
         This web SPA was created with Vuetify, a JavaScript component manager powered by Vue.js. 
         It uses the AWS Cloud Development Kit with TypeScript for automated deployment to Amazon Web Services. 
-        The AWS CDK automatically provisions an S3 bucket for static hosting behind the CloudFront Content Delivery Network.
+        The CDK automatically provisions an S3 bucket for static hosting behind the CloudFront Content Delivery Network.
         It uses Yarn as a package manager and Yarn Workspaces to create a monolithic repository. 
-        Changes are tracked by Git and Github Actions are used for continuous deployment. 
-        <a href=https://github.com/austinesmith/vuejs-in-s3-over-cloudfront>[View: This Repository]</a>
+        Changes are tracked by Git and Github Actions are used for CI/CD. <a href=https://github.com/austinesmith/vuejs-in-s3-over-cloudfront>[View: This Repository]</a><br>
+        
+        
       </v-card-text>
 
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        ISC {{ new Date().getFullYear() }} — <strong>Austin Smith</strong>
+        
+        <strong>Created by Austin Smith</strong> — <a href="https://opensource.org/licenses/ISC">ISC</a> {{ new Date().getFullYear() }}<br><br>
+        <img src="../assets/carousel-images/awswhite.png" width="100">
+        
       </v-card-text>
     </v-card>
     
@@ -67,11 +101,6 @@ export default {
   name: "Footer",
 
   data: () => ({
-      icons: [
-        'mdi-github',
-        'mdi-linkedin',
-        'mdi-email'
-      ],
     }),
 };
 </script>
