@@ -10,13 +10,13 @@
 //import
 
 export default {
-  name: 'Digitalart',
+  name: 'DigitalArt',
 
   components: {
   },
 
   data: () => ({
     //
-  }),
+  }), 
 };
 </script>

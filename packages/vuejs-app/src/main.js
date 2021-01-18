@@ -5,7 +5,7 @@ import VueRouter from 'vue-router';
 
 import Portfolio from './views/Portfolio';
 import Contact from './views/Contact';
-import Digitalart from './views/Digitalart';
+import DigitalArt from './views/DigitalArt';
 import NotFound from './views/NotFound';
 
 Vue.use(VueRouter)
@@ -20,7 +20,7 @@ const router = new VueRouter({
   routes: [
     { path: '/', component: Portfolio },
     { path: '/Contact', component: Contact },
-    { path: '/Digitalart', component: Digitalart },
+    { path: '/DigitalArt', component: DigitalArt },
     { path: '/*', component: NotFound }
   ]
 })

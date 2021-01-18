@@ -62,13 +62,13 @@
         <v-expansion-panel-content>
           <v-card flat>
           <br>Welcome to the developer portfolio page of Austin Smith.  This website is a Vue.js SPA (single page application) and is automatically deployed with AWS CDK (Amazon Web Services Cloud Developer Kit).  It is being used to showcase my skills and what I've been working on recently.
-          The summary about the methodologies used in this project, as well as the source code, can be viewed in the footer.<br><br>
+          A summary of what powers this project, as well as a link to the source code, can be viewed in the footer.<br><br>
 
-          I have been a computer hobbyist all my life which has helped me sharpen skills in security, design, and development.  My current career path is to work with Amazon Web Services professionally.  My goal is to become an AWS Cloud Engineer or Solutions Architect.
+          I have been a computer hobbyist all my life and it has helped me sharpen skills in security, design, and development.  My current career path is to work with Amazon Web Services professionally.  My goal is to become an AWS Cloud Engineer or Solutions Architect.
           I do development work using AWS in my free time so that my skills are constantly improving.  I genuinely enjoy the work.  The arguments behind adopting the cloud are not only compelling, they're incredibly interesting.<br><br>
           
           I'm always chasing a goal in my life and I'm very driven to accomplish them.  Or I'm taking steps to learn new information and skills and evolve myself as a person.  When I'm not behind a screen I enjoy being productive by doing DiY projects or helping others.  
-          I always make an attempt to fix a problem on my own, no matter what the problem is.  I also like finding entertaining ways to better myself, like choosing documentaries instead of fiction.  There is no greater feeling than basking in the glory of your accomplishments!<br><br>
+          I always make an attempt to fix problems on my own, no matter how challenging.  There is no greater feeling than basking in the glory of your accomplishments!<br><br>
           
           My favorite way to unwind is to visit the great outdoors with my best friend; my dog Forest.  He's a golden-retriever/border-collie mix and a gift to the earth.  I also love traveling, cooking great food, meeting new people, and riding my motorcycle.<br><br>
           
@@ -123,7 +123,47 @@
                 outlined
                 to=""
               >
-                <router-link to="/Logos">View Digital Art</router-link>
+                <router-link to="/Notfound">Interact</router-link>
+              </v-btn>
+            </v-card-actions>
+
+              </div>
+
+              <v-avatar
+                class="ma-5"
+                size="150"
+                tile
+              >
+                <v-img src="../assets/card-images/photoshop.png"></v-img>
+              </v-avatar>
+            </div>
+
+          </v-card>
+        </v-col>
+
+        <v-col cols="12">
+          <v-card
+            color="#121212"
+            dark
+          >
+
+              <div class="d-flex flex-no-wrap justify-space-between">
+              <div>
+
+            <v-card-title class="headline">
+              Digital Art
+            </v-card-title>
+
+            <v-card-subtitle>This is a collection of professional logos I've designed and created from scratch. These were created as a hobby in Adobe Photoshop. If you like these designs feel free to contact me for a commission.</v-card-subtitle>
+
+            <v-card-actions>
+              <v-btn 
+                text
+                class="ml-2 mt-5"
+                outlined
+                to=""
+              >
+                <router-link to="/DigitalArt">View Digital Art</router-link>
               </v-btn>
             </v-card-actions>
 
