@@ -1,5 +1,5 @@
 {
-  "app": "npx ts-node bin/aws-cdk.ts",
+  "app": "npx ts-node bin/cloudfront-portfolio-cdk.ts",
   "context": {
     "@aws-cdk/core:enableStackNameDuplicates": "true",
     "aws-cdk:enableDiffNoFail": "true",
