@@ -1,18 +1,15 @@
 // application
 .v-application {
-  background: $white !important;
+
   font: 300 #{$base-font-size}/#{$base-line-height} $base-font-family;
   font-weight: 300;
+}
 
-  .container {
-    max-width: 1200px;
-  }
+// expansion 
+.v-expansion-panel-header{
 
-  .responsiveMenu {
-    a {
-      color: $black;
-    }
-  }
+  //font-size: 2em;
+  font-weight: 1000;
 }
 
 // block
@@ -59,25 +56,6 @@ iframe {
 
   @media only screen and (max-width: 599px) {
     height: 300px;
-  }
-}
-
-// static hero
-.staticHero {
-  @media only screen and (max-width: 767px) {
-    height: 130px;
-  }
-
-  .v-image {
-    @media only screen and (max-width: 767px) {
-      height: 100%;
-    }
-  }
-
-  .headline {
-    @media only screen and (max-width: 767px) {
-      font-size: 20px !important;
-    }
   }
 }
 

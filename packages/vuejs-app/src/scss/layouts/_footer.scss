@@ -1,15 +1,17 @@
 // footer
 .v-footer {
-  background: $white !important;
+  //background: $white !important;
+  margin-left: 20px;
+  margin-right: 20px;
 
   .v-card__text {
     @media only screen and (max-width: 599px) { 
-      padding: 16px 0;
+      padding: 15px 0;
     }
 
     .v-btn {
       @media only screen and (max-width: 599px) { 
-        margin: 0 7px !important;
+        margin: 55 25px !important;
       }
     }
   }
