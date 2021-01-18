@@ -10,7 +10,6 @@ jobs:
     - run: npm install -g yarn
     - run: yarn
     - run: yarn build
-    - run: yarn add global aws-cdk
     - run: yarn synth
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
