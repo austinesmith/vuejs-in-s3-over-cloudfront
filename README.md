@@ -1,4 +1,4 @@
-# Demonstration: This project creates a portfolio website the automatically deploys to Amazon Web Services
+# This project creates a portfolio website that automatically deploys to Amazon Web Services
 
 This web SPA (Single Page Application) was created with Vuetify, a JavaScript component manager powered by Vue.js. 
 It uses the AWS Cloud Development Kit with TypeScript for automated deployment to Amazon Web Services. 
@@ -8,7 +8,6 @@ Changes are tracked by Git and Github Actions are used for CI/CD.
 
 
 Visit the following link for the end result of this project:
-
 [View: Austin Smith Developer Portfolio](https://portfolio.austinesmith.com)
 
 
