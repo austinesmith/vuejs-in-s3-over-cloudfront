@@ -7,7 +7,7 @@ It uses Yarn as a package manager and Yarn Workspaces to create a monolithic rep
 Changes are tracked by Git and Github Actions are used for CI/CD.
 
 
-Visit the following link for the end result of this project:
+Visit the following link for the end result of this project: <br>
 [View: Austin Smith Developer Portfolio](https://portfolio.austinesmith.com)
 
 
