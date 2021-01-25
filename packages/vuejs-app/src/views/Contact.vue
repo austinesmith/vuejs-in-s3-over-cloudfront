@@ -57,7 +57,8 @@
           <a href="https://www.linkedin.com/in/austinfosec/">linkedin.com/in/austinfosec</a><br><br>
 
           <b>Download My Resume:</b><br>
-          <a href=".../assets/pdfs/saa.pdf">Updated Resume (*.pdf)</a>
+          <a :href="require('../assets/pdfs/austinsmithresume2021.pdf')" target="_blank">Download1</a>
+          <a href="../assets/pdfs/austinsmithresume2021.pdf" target="_blank">Download2</a>
         </v-card-text>
       </div>
     </v-expand-transition>
@@ -138,7 +139,6 @@
 </template>
 
 <script>
-//import
 
 export default {
   name: 'Contact',
@@ -164,8 +164,10 @@ export default {
         v => (v && v.length >= 25) || 'Message must be more than 25 characters',
       ],
       show: false,
+      
     }),
 
+    
     methods: {
       validate () {
         this.$refs.form.validate()

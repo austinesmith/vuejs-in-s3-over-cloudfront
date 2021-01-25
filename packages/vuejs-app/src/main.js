@@ -14,6 +14,8 @@ import './scss/main.scss';
 import VueExpandableImage from 'vue-expandable-image';
 Vue.use(VueExpandableImage);
 
+
+
 Vue.config.productionTip = false
 
 const router = new VueRouter({

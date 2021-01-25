@@ -12,10 +12,10 @@
 
     
     <v-img
-    max-height="200px"
+    max-height="300px"
     max-width="500px"
       img-border="10px"
-      src="../assets/card-images/austin.jpg"
+      src="../assets/card-images/austinportrait.jpg"
     >
     </v-img>
     
@@ -70,7 +70,7 @@
           I'm always chasing a goal in my life and I'm very driven to accomplish them.  Or I'm taking steps to learn new information and skills and evolve myself as a person.  When I'm not behind a screen I enjoy being productive by doing DiY projects or helping others.  
           I always make an attempt to fix problems on my own, no matter how challenging.  There is no greater feeling than basking in the glory of your accomplishments!<br><br>
           
-          My favorite way to unwind is to visit the great outdoors with my best friend; my dog Forest.  He's a golden-retriever/border-collie mix and a gift to the earth.  I also love traveling, cooking great food, meeting new people, and riding my motorcycle.<br><br>
+          My favorite way to unwind is to visit the great outdoors with my best friend; my dog Forest.  He's a golden-retriever/border-collie mix and a gift to the earth.  I also love traveling, cooking great food, creating digital media, meeting new people, and riding my motorcycle.<br><br>
           
          
           <v-card
@@ -79,7 +79,7 @@
           <expandable-image
       class="image"
       max-height="200px"
-      :src="require('../assets/card-images/forest.jpg')"
+      :src="require('../assets/card-images/bestfriend.jpg')"
       alt="Dog"
       title="Forest"
     ></expandable-image>
