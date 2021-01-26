@@ -36,12 +36,13 @@
 
     <v-card-text class="text--primary; justify-center">
       <ul>
-      <div><li>BS in Cybersecurity</li></div>
+      <div><li>Bachelor's of Science in Cybersecurity</li></div>
       
 
-      <div><li>2x AWS Certified</li></div>
+      <div><li>AWS Certified Solutions Architect - Associate</li></div>
 
-      <div><li>3 years professional development experience</li></div>
+      <div><li>AWS Certified Cloud Practitioner</li></div>
+
       </ul>
     </v-card-text>
 
@@ -64,7 +65,10 @@
         </v-expansion-panel-header>
           
         <v-expansion-panel-content>
+          
+          <v-container>
           <v-card flat>
+            
           <br>Welcome to the developer portfolio page of Austin Smith.  This website is a Vue.js single-page application and is automatically deployed with AWS CDK (Amazon Web Services Cloud Developer Kit).  It is meant to be a living document to showcase my skills and what I've been working on recently.
           A summary of technologies used for this project, as well as a link to the source code, can be viewed in the footer.<br><br>
 
@@ -74,8 +78,8 @@
           I'm always chasing goals in my life and I'm very driven to accomplish them.  Or I'm taking steps to learn new information and skills and evolve myself as a person.  When I'm not behind a screen I enjoy being productive by doing DIY projects or helping others.  
           I always make an attempt to fix problems on my own, no matter how challenging.  There is no greater feeling than basking in the glory of your accomplishments!<br><br>
           
-          My favorite way to unwind is to visit the great outdoors with my best friend; my dog Forest.  He's a golden-retriever/border-collie mix and the greatest gift I've ever received.  I also love traveling, cooking great food, graphic design, meeting new people, and riding my motorcycle.<br><br>
-          
+          My favorite way to unwind is to visit the great outdoors with my dog Forest.  He's a golden-retriever/border-collie mix and the best friend I'll ever have.  I also love traveling, cooking great food, graphic design, meeting new people, and riding my motorcycle.<br><br>
+         
          
 
           <v-card
@@ -93,6 +97,7 @@
           </v-card
           >
           </v-card>
+          </v-container>
 
         </v-expansion-panel-content>
 
@@ -107,8 +112,10 @@
 
         <v-expansion-panel-content>
           
-          
+      
       <v-row dense>
+
+        <!-- 1 -->
         <v-col cols="12">
           <v-card
             color="#121212"
@@ -119,19 +126,20 @@
               <div>
 
             <v-card-title class="headline">
-              Digital Art
+              Serverless C.R.U.D. RESTful API
             </v-card-title>
 
-            <v-card-subtitle>This is a collection of professional logos I've designed and created from scratch. These were created as a hobby in Adobe Photoshop. If you like these designs feel free to contact me for a commission.</v-card-subtitle>
+            <v-card-subtitle>This project creates a web API following the standards of REpresentation State Transfer that enables create, read, update, and delete functions to a database. The project uses AWS managed resources for a serverless architecture. It uses an API Gateway with Lambda triggers that interact with a DynamoDB table. All resources are automatically provisioned using the AWS CDK.</v-card-subtitle>
 
             <v-card-actions>
               <v-btn 
                 text
                 class="ml-2 mt-5"
                 outlined
+                href="https://github.com/austinesmith/serverless-crud-restful-api"
                 to=""
               >
-                <router-link to="/art">Interact</router-link>
+                VIEW REPO
                 
               </v-btn>
             </v-card-actions>
@@ -143,13 +151,17 @@
                 size="150"
                 tile
               >
-                <v-img src="../assets/card-images/photoshop.png"></v-img>
+                <v-img src="../assets/card-images/serverless.png"></v-img>
               </v-avatar>
             </div>
 
           </v-card>
         </v-col>
+      
 
+      <!-- 2 -->
+
+      
         <v-col cols="12">
           <v-card
             color="#121212"
@@ -160,18 +172,19 @@
               <div>
 
             <v-card-title class="headline">
-              Digital Art
+              Artifact Marketplace Servlet
             </v-card-title>
 
-            <v-card-subtitle>Creating digital art is a hobby of mine. This is a collection of professional logos I have created for others from scratch. These were created in Adobe Photoshop. If you like these designs feel free to contact me.</v-card-subtitle>
+            <v-card-subtitle>This project uses Java EE to create a simple one-page marketplace that allows users to add, remove, and view for sale listings from a database.  It accomplished by deploying a *.WAR servlet to an Apache Tomcat webserver. The servlets use JDBC to connect to a MySQL database and persist data.</v-card-subtitle>
 
             <v-card-actions>
               <v-btn 
                 text
                 class="ml-2 mt-5"
+                href="https://github.com/austinesmith/artifactmarketplace"
                 outlined
               >
-                <router-link to="/art">View Digital Art</router-link>
+                VIEW REPO
               </v-btn>
             </v-card-actions>
 
@@ -182,7 +195,7 @@
                 size="150"
                 tile
               >
-                <v-img src="../assets/card-images/photoshop.png"></v-img>
+                <v-img src="../assets/card-images/servlet.png"></v-img>
               </v-avatar>
             </div>
 
@@ -212,7 +225,7 @@
                 outlined
                 to=""
               >
-                <router-link to="/art">VIEW DIGITAL ART</router-link>
+                <router-link to="/art">VIEW ART</router-link>
                 
               </v-btn>
             </v-card-actions>
@@ -232,7 +245,7 @@
         </v-col>
         
       </v-row>
-    
+      
           
         </v-expansion-panel-content>
 
@@ -272,7 +285,7 @@
     
 
     <expandable-image
-      class="image"
+      max-width="100%"
       :src="require('../assets/card-images/degree.jpg')"
       alt="Cybersecurity Degree"
       title="UNO Cybersecurity Degree"

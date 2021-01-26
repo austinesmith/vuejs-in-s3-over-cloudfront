@@ -10,11 +10,15 @@
       <Header/>
     </v-app-bar>
 
+
     <router-view></router-view>
 
-    <v-footer>
+    <v-footer
+    
+    >
       <Footer/>
     </v-footer>
+
 
   </v-app>
  <!-- </div> -->

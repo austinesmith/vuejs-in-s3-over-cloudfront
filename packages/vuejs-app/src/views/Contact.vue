@@ -57,8 +57,7 @@
           <a href="https://www.linkedin.com/in/austinfosec/">linkedin.com/in/austinfosec</a><br><br>
 
           <b>Download My Resume:</b><br>
-          <a :href="require('../assets/pdfs/austinsmithresume2021.pdf')" target="_blank">Download1</a>
-          <a href="../assets/pdfs/austinsmithresume2021.pdf" target="_blank">Download2</a>
+          <a :href="require('../assets/pdfs/austinsmithresume2021.pdf')" target="_blank">Most Recent Resume (*.pdf)</a>
         </v-card-text>
       </div>
     </v-expand-transition>

@@ -1,4 +1,5 @@
 <template>
+
   <!-- <div style="width: 100%; margin: 0 auto;"> -->
   <!-- <v-container fluid> -->
   <!-- <v-row align="center"
@@ -9,14 +10,15 @@
     <!-- <div style="flex-basis: 0%"> 
       class="ma-0 pa-0"-->
     <v-footer
-      class="mx-6"
+      class="mx-auto"
       padless
     >
+
 
     <!-- <div margin="25px"> -->
     <v-card
     
-      flat
+      
       tile
       class="white--text text-center"
       color="#272727"
@@ -65,6 +67,7 @@
       </v-card-text>
 
       <v-card-text class="grey--text pt-0">
+        
         This web SPA was created with Vuetify, a JavaScript component manager powered by Vue.js. 
         It uses the AWS Cloud Development Kit with TypeScript for automated deployment to Amazon Web Services. 
         The CDK automatically provisions an S3 bucket for static hosting behind the CloudFront Content Delivery Network.
@@ -83,12 +86,14 @@
         <img src="../assets/carousel-images/awswhite.png" width="100">
         
       </v-card-text>
+      
     </v-card>
     
     
 
     
   </v-footer>
+  
   <!-- </div> -->
 
   <!-- </div> -->
