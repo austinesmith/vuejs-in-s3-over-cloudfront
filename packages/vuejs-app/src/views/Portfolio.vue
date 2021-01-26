@@ -123,7 +123,7 @@
                 outlined
                 to=""
               >
-                <router-link to="/DigitalArt">Interact</router-link>
+                <router-link to="/art">Interact</router-link>
                 
               </v-btn>
             </v-card-actions>
@@ -163,7 +163,7 @@
                 class="ml-2 mt-5"
                 outlined
               >
-                <router-link to="/DigitalArt">View Digital Art</router-link>
+                <router-link to="/art">View Digital Art</router-link>
               </v-btn>
             </v-card-actions>
 
@@ -337,7 +337,6 @@
 </template>
 
 <script>
-
 
 export default {
   name: 'Portfolio',

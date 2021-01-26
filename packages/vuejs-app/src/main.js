@@ -5,7 +5,7 @@ import VueRouter from 'vue-router';
 
 import Portfolio from './views/Portfolio';
 import Contact from './views/Contact';
-import DigitalArt from './views/DigitalArt';
+import Art from './views/Art';
 import NotFound from './views/NotFound';
 
 Vue.use(VueRouter)
@@ -21,8 +21,8 @@ Vue.config.productionTip = false
 const router = new VueRouter({
   routes: [
     { path: '/', component: Portfolio },
-    { path: '/Contact', component: Contact },
-    { path: '/DigitalArt', component: DigitalArt },
+    { path: '/contact', component: Contact },
+    { path: '/art', component: Art },
     { path: '/*', component: NotFound }
   ]
 })

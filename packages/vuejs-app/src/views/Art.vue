@@ -10,7 +10,7 @@
 //import
 
 export default {
-  name: 'DigitalArt',
+  name: 'Art',
 
   components: {
   },

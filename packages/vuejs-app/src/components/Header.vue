@@ -10,11 +10,11 @@
             <v-toolbar-items>
 
             <v-btn text>
-              <router-link to="/">Portfolio</router-link>
+              <router-link to="/">portfolio</router-link>
             </v-btn>
 
             <v-btn text>
-              <router-link to="/Contact">Contact</router-link>
+              <router-link to="/Contact">contact</router-link>
             </v-btn>
 
             </v-toolbar-items>
