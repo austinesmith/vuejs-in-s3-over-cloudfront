@@ -3,7 +3,12 @@
     <!-- <div style="width: 100%; margin: 0 auto;"> -->
           <v-toolbar dark flat>
 
-            <v-toolbar-title>Austin Smith</v-toolbar-title>
+            <v-toolbar-title><v-img
+              width="100%"
+              max-width="175"
+
+  src="../assets/card-images/banner.png"
+></v-img></v-toolbar-title>
 
             <v-spacer></v-spacer>
 

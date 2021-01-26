@@ -2,6 +2,18 @@
   <v-content>
     <v-container>
 
+      <div class="d-flex flex-no-wrap justify-space-between">
+            <div>
+    
+            </div><div>
+              <v-img
+              width="100%"
+              max-width="110"
+
+  src="../assets/card-images/contact2.png"
+></v-img>
+</div></div>
+
     <!-- Contact Card -->
     <v-card
     class="mx-auto"

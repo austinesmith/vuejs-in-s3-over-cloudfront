@@ -2,8 +2,22 @@
   <v-content>
   <v-container>
 
+  
+<div class="d-flex flex-no-wrap justify-space-between">
+            <div>
+    
+            </div><div>
+              <v-img
+              width="100%"
+              max-width="110"
+
+  src="../assets/card-images/portfolio2.png"
+></v-img>
+</div></div>
+  
+
     <v-card
-    class="mb-0"
+    class="mb-3"
     tile
   >
     <!-- start col -->
@@ -31,11 +45,9 @@
 </div>
 
               <div>
-                <v-card-title
-                  class="headline fix"
-                >Austin Smith</v-card-title>
+                
 
-                <v-card-subtitle>Cloud Engineer in Omaha, NE</v-card-subtitle>
+                <v-card-subtitle><strong>Cloud Engineer in Omaha, NE</strong></v-card-subtitle>
 
                 <v-card-text id="credentials">
                   <ul>
@@ -70,7 +82,7 @@
           <v-container>
           <v-card flat>
             
-          <br>Welcome to the developer portfolio page of Austin Smith.  This website is a Vue.js single-page application and is automatically deployed with AWS CDK (Amazon Web Services Cloud Developer Kit).  It is meant to be a living document to showcase my skills and what I've been working on recently.
+          Welcome to the developer portfolio page of Austin Smith.  This website is a Vue.js single-page application and is automatically deployed with AWS CDK (Amazon Web Services Cloud Developer Kit).  It is meant to be a living document to showcase my skills and what I've been working on recently.
           A summary of technologies used for this project, as well as a link to the source code, can be viewed in the footer.<br><br>
 
           I have been a computer enthusiast for most of my life and this has enabled me to develop valuable professional skills in design, development, and security.  My current goal is to work in any development position that compliments cloud computing.  My career goal is to become an Cloud Engineer or Solutions Architect.
@@ -127,7 +139,7 @@
               <div class="d-flex flex-no-wrap justify-space-between">
               <div>
 
-            <v-card-title class="headline fix">
+            <v-card-title class="headline fix" word-break="normal">
               CRUD API with Serverless Infrastructure
             </v-card-title>
 
@@ -263,6 +275,7 @@
 
         <v-expansion-panel-content>
           <!-- <v-container> -->
+            <v-container>
             <v-card
               class="py-0"
               max-width="100%"
@@ -271,7 +284,7 @@
             >
 
   <v-row><v-col>
-  <v-card-title class="pt-0 fix">Bachelors of Science in Cybersecurity</v-card-title>
+  <v-card-title class="pt-0 fix">Bachelor's of Science in Cybersecurity</v-card-title>
     
 
     <v-card-subtitle class="pb-0">
@@ -299,6 +312,7 @@
       </v-col>
       </v-row>
   </v-card>
+            </v-container>
           <!-- </v-container> -->
         </v-expansion-panel-content>
 
