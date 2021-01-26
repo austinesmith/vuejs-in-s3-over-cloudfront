@@ -8,8 +8,17 @@
 // expansion 
 .v-expansion-panel-header{
 
-  //font-size: 2em;
+  font-size: 1em;
   font-weight: 1000;
+  
+}
+
+//word wrap
+.fix {
+  overflow-wrap: anywhere;
+  word-wrap: break-word;
+  word-break: normal;
+  hyphens: auto;
 }
 
 // block

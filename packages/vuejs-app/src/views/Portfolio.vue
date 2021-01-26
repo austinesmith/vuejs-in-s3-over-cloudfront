@@ -8,22 +8,25 @@
     <!-- start col -->
     <v-container>
     <v-row no-gutters>
-      <v-col md="4">
+      <v-col>
 
     
     <v-img
-    max-height="300px"
-    max-width="500px"
+    contain
+    width="200"
+    height="auto"
+    
       img-border="10px"
-      src="../assets/card-images/austinportrait.jpg"
+      src="../assets/card-images/squareport.jpg"
     >
     </v-img>
     
 
       </v-col>
-      <v-col md="8" class="text-center">
+      
+      <v-col  class="text-center">
         
-
+<v-card flat>
         <v-card-title class="justify-center"><b>Austin Smith</b></v-card-title>
     <v-card-subtitle class="pb-0">
       Lives in Omaha, NE, USA<br>
@@ -43,6 +46,7 @@
     </v-card-text>
 
     <!-- end col -->
+    </v-card>
    
     </v-col>
     </v-row>
@@ -61,31 +65,35 @@
           
         <v-expansion-panel-content>
           <v-card flat>
-          <br>Welcome to the developer portfolio page of Austin Smith.  This website is a Vue.js SPA (single page application) and is automatically deployed with AWS CDK (Amazon Web Services Cloud Developer Kit).  It is being used to showcase my skills and what I've been working on recently.
-          A summary of what powers this project, as well as a link to the source code, can be viewed in the footer.<br><br>
+          <br>Welcome to the developer portfolio page of Austin Smith.  This website is a Vue.js single-page application and is automatically deployed with AWS CDK (Amazon Web Services Cloud Developer Kit).  It is meant to be a living document to showcase my skills and what I've been working on recently.
+          A summary of technologies used for this project, as well as a link to the source code, can be viewed in the footer.<br><br>
 
-          I have been a computer hobbyist all my life and it has helped me sharpen skills in security, design, and development.  My current career path is to work with Amazon Web Services professionally.  My goal is to become an AWS Cloud Engineer or Solutions Architect.
-          I do development work using AWS in my free time so that my skills are constantly improving.  I genuinely enjoy the work.  The arguments behind adopting the cloud are not only compelling, they're incredibly interesting.<br><br>
+          I have been a computer enthusiast for most of my life and this has enabled me to develop valuable professional skills in design, development, and security.  My current goal is to work in any development position that compliments cloud computing.  My career goal is to become an Cloud Engineer or Solutions Architect.
+          I do development work using AWS in my free time to make sure my skills are constantly improving.  I genuinely enjoy the work.  The arguments behind adopting the cloud are not only compelling, they're incredibly interesting.<br><br>
           
-          I'm always chasing a goal in my life and I'm very driven to accomplish them.  Or I'm taking steps to learn new information and skills and evolve myself as a person.  When I'm not behind a screen I enjoy being productive by doing DiY projects or helping others.  
+          I'm always chasing goals in my life and I'm very driven to accomplish them.  Or I'm taking steps to learn new information and skills and evolve myself as a person.  When I'm not behind a screen I enjoy being productive by doing DIY projects or helping others.  
           I always make an attempt to fix problems on my own, no matter how challenging.  There is no greater feeling than basking in the glory of your accomplishments!<br><br>
           
-          My favorite way to unwind is to visit the great outdoors with my best friend; my dog Forest.  He's a golden-retriever/border-collie mix and a gift to the earth.  I also love traveling, cooking great food, creating digital media, meeting new people, and riding my motorcycle.<br><br>
+          My favorite way to unwind is to visit the great outdoors with my best friend; my dog Forest.  He's a golden-retriever/border-collie mix and the greatest gift I've ever received.  I also love traveling, cooking great food, graphic design, meeting new people, and riding my motorcycle.<br><br>
           
          
+
           <v-card
-          max-width="400px"
+          
+            max-width="250px"
+            tile
+            flat
           >
           <expandable-image
-      class="image"
-      max-heightgit="200px"
+      width="50%"
       :src="require('../assets/card-images/bestfriend.jpg')"
       alt="Dog"
       title="Forest"
     ></expandable-image>
+          </v-card
+          >
           </v-card>
 
-          </v-card>
         </v-expansion-panel-content>
 
       </v-expansion-panel>
@@ -155,7 +163,7 @@
               Digital Art
             </v-card-title>
 
-            <v-card-subtitle>This is a collection of professional logos I've designed and created from scratch. These were created as a hobby in Adobe Photoshop. If you like these designs feel free to contact me for a commission.</v-card-subtitle>
+            <v-card-subtitle>Creating digital art is a hobby of mine. This is a collection of professional logos I have created for others from scratch. These were created in Adobe Photoshop. If you like these designs feel free to contact me.</v-card-subtitle>
 
             <v-card-actions>
               <v-btn 
@@ -164,6 +172,48 @@
                 outlined
               >
                 <router-link to="/art">View Digital Art</router-link>
+              </v-btn>
+            </v-card-actions>
+
+              </div>
+
+              <v-avatar
+                class="ma-5"
+                size="150"
+                tile
+              >
+                <v-img src="../assets/card-images/photoshop.png"></v-img>
+              </v-avatar>
+            </div>
+
+          </v-card>
+        </v-col>
+
+        <!-- 3 -->
+        <v-col cols="12">
+          <v-card
+            color="#121212"
+            dark
+          >
+
+              <div class="d-flex flex-no-wrap justify-space-between">
+              <div>
+
+            <v-card-title class="headline">
+              Digital Art
+            </v-card-title>
+
+            <v-card-subtitle>Creating digital art is a hobby of mine. This is a collection of professional logos I have created for others from scratch. These were created in Adobe Photoshop. If you like these designs feel free to contact me.</v-card-subtitle>
+
+            <v-card-actions>
+              <v-btn 
+                text
+                class="ml-2 mt-5"
+                outlined
+                to=""
+              >
+                <router-link to="/art">VIEW DIGITAL ART</router-link>
+                
               </v-btn>
             </v-card-actions>
 
@@ -201,12 +251,12 @@
             <v-card
               class="mx"
               max-width="100%"
-              rounded
+              flat
 
             >
 
   <v-row><v-col>
-  <v-card-title>Bachelors of Science in Cybersecurity</v-card-title>
+  <v-card-title class="fix">Bachelors of Science in Cybersecurity</v-card-title>
     
 
     <v-card-subtitle class="pb-0">
@@ -250,6 +300,7 @@
             <v-row><v-col md="6">
            <v-card
     class="mx-auto"
+    flat
   >
 
 
@@ -260,7 +311,7 @@
       title="AWS Certified Cloud Practitioner"
     ></expandable-image>
 
-      <v-card-title>AWS Certified Cloud Practitioner</v-card-title>
+      <v-card-title class="fix">AWS Certified Cloud Practitioner</v-card-title>
     
 
     <v-card-subtitle class="pb-0">
@@ -268,12 +319,13 @@
     </v-card-subtitle>
 
     <v-card-text class="text--primary">
-      <div>Amazon Web Services</div>
+      <div><a href="https://aws.amazon.com/certification/certified-cloud-practitioner/">AWS CLF-C01</a></div>
     </v-card-text>
   </v-card>
   </v-col><v-col md="6">
             <v-card
     class="mx-auto"
+    flat
   >
     <expandable-image
       class="image"
@@ -282,7 +334,7 @@
       title="AWS Certified Solutions Architect - Associate"
     ></expandable-image>
 
-      <v-card-title>AWS Certified Solutions Architect</v-card-title>
+      <v-card-title class="fix">AWS Certified Solutions Architect</v-card-title>
     
 
     <v-card-subtitle class="pb-0">
@@ -290,7 +342,7 @@
     </v-card-subtitle>
 
     <v-card-text class="text--primary">
-      <div>Amazon Web Services</div>
+      <div><a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/">AWS SAA-C02</a></div>
     </v-card-text>
   </v-card>
   </v-col></v-row>
