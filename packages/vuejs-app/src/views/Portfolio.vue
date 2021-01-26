@@ -19,6 +19,7 @@
     <v-card
     class="mb-3"
     tile
+    shaped
   >
     <!-- start col -->
     
@@ -244,6 +245,7 @@
               </v-btn>
             </v-card-actions>
 
+           
               </div>
 
               <v-avatar
@@ -254,6 +256,9 @@
                 <v-img size="150" src="../assets/card-images/photoshop.png"></v-img>
               </v-avatar>
             </div>
+
+
+
 
           </v-card>
         </v-col>

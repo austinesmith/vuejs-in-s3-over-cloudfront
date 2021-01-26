@@ -10,8 +10,9 @@
     <!-- <div style="flex-basis: 0%"> 
       class="ma-0 pa-0"-->
     <v-footer
-      class="mx-auto"
+      class="mb-n1"
       padless
+      flat
     >
 
 
@@ -83,7 +84,7 @@
       <v-card-text class="grey--text">
         
         <strong class="white--text">Created by Austin Smith</strong> — <a href="https://opensource.org/licenses/ISC">ISC</a> {{ new Date().getFullYear() }}<br><br>
-        powered by<br>
+        <span font-size="200%"><em>powered by</em></span><br>
         <img src="../assets/carousel-images/awswhite.png" width="100">
         
       </v-card-text>

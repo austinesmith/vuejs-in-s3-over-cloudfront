@@ -44,7 +44,7 @@
         text
         @click="show = !show"
       >
-        Related Links:
+        LINKS AND DOWNLOADS
       </v-btn>
 
       <v-spacer></v-spacer>
