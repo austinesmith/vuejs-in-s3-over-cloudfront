@@ -3,55 +3,56 @@
   <v-container>
 
     <v-card
-    class="mb-3"
+    class="mb-0"
+    tile
   >
     <!-- start col -->
-    <v-container>
-    <v-row no-gutters>
-      <v-col>
-
     
-    <v-img
-    contain
-    width="200"
-    height="auto"
-    
-      img-border="10px"
-      src="../assets/card-images/squareport.jpg"
-    >
-    </v-img>
-    
+    <v-row>
+        <v-col
+          
+          cols="12"
+        >
+          <v-card
+            dark
+            flat
+            
+            id="portpad"
+          >
+            <div class="d-flex flex-no-wrap">
+            <div>
+              <v-avatar
+                class="ma-3"
+                size="200"
+                tile
+              >
+                <v-img src="../assets/card-images/squareport.jpg"></v-img>
+              </v-avatar>
+</div>
 
-      </v-col>
-      
-      <v-col  class="text-center">
-        
-<v-card flat>
-        <v-card-title class="justify-center"><b>Austin Smith</b></v-card-title>
-    <v-card-subtitle class="pb-0">
-      Lives in Omaha, NE, USA<br>
+              <div>
+                <v-card-title
+                  class="headline fix"
+                >Austin Smith</v-card-title>
 
-      Went to University of Nebraska Omaha<br><br>
-    </v-card-subtitle>
+                <v-card-subtitle>Cloud Engineer in Omaha, NE</v-card-subtitle>
 
-    <v-card-text class="text--primary; justify-center">
-      <ul>
-      <div><li>Bachelor's of Science in Cybersecurity</li></div>
-      
+                <v-card-text id="credentials">
+                  <ul>
+                  <li>Bachelor's of Science in Cybersecurity</li>
+                  <li>AWS Certified Solutions Architect - Associate</li>
+                  <li>AWS Certified Cloud Practitioner</li>
+                  </ul>
+                </v-card-text>
+              </div>
+            
 
-      <div><li>AWS Certified Solutions Architect - Associate</li></div>
+              
+            </div>
+          </v-card>
+        </v-col>
 
-      <div><li>AWS Certified Cloud Practitioner</li></div>
-
-      </ul>
-    </v-card-text>
-
-    <!-- end col -->
-    </v-card>
-   
-    </v-col>
     </v-row>
-    </v-container>
   </v-card>
 
     <!-- expansion panel start -->
@@ -111,6 +112,7 @@
         </v-expansion-panel-header>
 
         <v-expansion-panel-content>
+          <v-container>
           
       
       <v-row dense>
@@ -125,7 +127,7 @@
               <div class="d-flex flex-no-wrap justify-space-between">
               <div>
 
-            <v-card-title class="headline">
+            <v-card-title class="headline fix">
               Serverless C.R.U.D. RESTful API
             </v-card-title>
 
@@ -148,7 +150,7 @@
 
               <v-avatar
                 class="ma-5"
-                size="150"
+                size="50"
                 tile
               >
                 <v-img src="../assets/card-images/serverless.png"></v-img>
@@ -171,7 +173,7 @@
               <div class="d-flex flex-no-wrap justify-space-between">
               <div>
 
-            <v-card-title class="headline">
+            <v-card-title class="headline fix">
               Artifact Marketplace Servlet
             </v-card-title>
 
@@ -192,7 +194,7 @@
 
               <v-avatar
                 class="ma-5"
-                size="150"
+                size="50"
                 tile
               >
                 <v-img src="../assets/card-images/servlet.png"></v-img>
@@ -212,7 +214,7 @@
               <div class="d-flex flex-no-wrap justify-space-between">
               <div>
 
-            <v-card-title class="headline">
+            <v-card-title class="headline fix">
               Digital Art
             </v-card-title>
 
@@ -233,11 +235,11 @@
               </div>
 
               <v-avatar
-                class="ma-5"
-                size="150"
+                class="ma-5 projectavatar"
+                
                 tile
               >
-                <v-img src="../assets/card-images/photoshop.png"></v-img>
+                <v-img size="150" src="../assets/card-images/photoshop.png"></v-img>
               </v-avatar>
             </div>
 
@@ -245,7 +247,7 @@
         </v-col>
         
       </v-row>
-      
+      </v-container>
           
         </v-expansion-panel-content>
 
@@ -262,14 +264,14 @@
         <v-expansion-panel-content>
           <!-- <v-container> -->
             <v-card
-              class="mx"
+              class="py-0"
               max-width="100%"
               flat
 
             >
 
   <v-row><v-col>
-  <v-card-title class="fix">Bachelors of Science in Cybersecurity</v-card-title>
+  <v-card-title class="pt-0 fix">Bachelors of Science in Cybersecurity</v-card-title>
     
 
     <v-card-subtitle class="pb-0">
@@ -280,12 +282,13 @@
       <div><a href="https://www.unomaha.edu/college-of-information-science-and-technology/school-of-interdisciplinary-informatics/cybersecurity/bs-cybr.php">University of Nebraska Omaha</a></div>
 
     </v-card-text>
-    </v-col><v-col md="3">
+    </v-col>
+    <v-col md="3">
 
     
 
     <expandable-image
-      max-width="100%"
+
       :src="require('../assets/card-images/degree.jpg')"
       alt="Cybersecurity Degree"
       title="UNO Cybersecurity Degree"
@@ -310,6 +313,7 @@
 
         <v-expansion-panel-content>
           <!-- AWS CERTS -->
+          <v-container>
             <v-row><v-col md="6">
            <v-card
     class="mx-auto"
@@ -323,6 +327,7 @@
       alt="AWS Certification"
       title="AWS Certified Cloud Practitioner"
     ></expandable-image>
+    
 
       <v-card-title class="fix">AWS Certified Cloud Practitioner</v-card-title>
     
@@ -359,6 +364,8 @@
     </v-card-text>
   </v-card>
   </v-col></v-row>
+
+  </v-container>
           <!-- END AWS CERTS -->
         </v-expansion-panel-content>
 

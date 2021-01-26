@@ -13,6 +13,27 @@
   
 }
 
+//credentials
+#credentials {
+  line-height: 150%;
+  font-size: 1em;
+}
+#portpad {
+  class: "mx-5";
+  @media only screen and (max-width: 599px) {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+}
+.projectavatar {
+  @media only screen and (max-width: 599px) {
+    size: 50;
+  }
+}
+
+//panelspansion
+.v-expansion-panel-content__wrap { padding: 0 !important; }
+
 //word wrap
 .fix {
   overflow-wrap: anywhere;

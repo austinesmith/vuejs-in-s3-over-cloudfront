@@ -18,6 +18,18 @@ header {
   }
 }
 
+.portrait {
+  width: 200px;
+  float: left;
+  border: 1px solid red;
+}
+.bio {
+  width: auto;
+  float: left;
+  border: 1px solid red;
+}
+
+
 .mainHeader {
   .v-toolbar__items {
     .v-btn__content {

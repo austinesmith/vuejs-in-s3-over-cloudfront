@@ -18,7 +18,7 @@
     <!-- <div margin="25px"> -->
     <v-card
     
-      
+      align="center"
       tile
       class="white--text text-center"
       color="#272727"
