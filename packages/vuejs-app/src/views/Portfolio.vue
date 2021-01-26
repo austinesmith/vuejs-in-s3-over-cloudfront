@@ -386,15 +386,17 @@
       
                 <div><li>Building infrastructure and serverless applications using CDK and CloudFormation in AWS</li></div>
 
-                <div><li>Experience writing Java, C, scripts, and using the command line interface</li></div>
+                <div><li>Experience with Java, C, scripting, and using the command line interface</li></div>
 
-                <div><li>Knowledgeable in best practices for ensuring information security</li></div>
+                <div><li>Knowledgeable in best practices used for safeguarding information security</li></div>
 
-                <div><li>Experience with databases and SQL</li></div>
+                <div><li>Experience working with databases and SQL</li></div>
 
-                <div><li>Working in teams by following development lifecycles, using Git, and code reviews</li></div>
+                <div><li>Working as a cohesive member of development team to ensure goals are met</li></div>
 
-                <div><li>Using Yarn and NPM to manage project dependencies and GitHub Actions for CI/CD</li></div>
+                <div><li>Productive strategies for development like build automation and continuous integration</li></div>
+
+                
               </ul>
     </v-card-text>
           </v-card>
@@ -417,20 +419,7 @@ export default {
   },
 
   data: () => ({
-      items: [
-        {
-          color: '#1F7087',
-          src: 'https://cdn.vuetifyjs.com/images/cards/foster.jpg',
-          title: 'Supermodel',
-          artist: 'Foster the People',
-        },
-        {
-          color: '#121212',
-          src: 'https://cdn.vuetifyjs.com/images/cards/halcyon.png',
-          title: 'Logo Design',
-          artist: 'A collection of professional logos I\'ve designed and created from scratch.  Designing logos is a hobby of mine.  These were created with Adobe Photoshop.  If you like these designs you may contact me for commission.',
-        },
-      ],
+      items: [],
     }),
   
 };
