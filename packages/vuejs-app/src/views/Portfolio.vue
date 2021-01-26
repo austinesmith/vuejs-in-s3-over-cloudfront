@@ -128,7 +128,7 @@
               <div>
 
             <v-card-title class="headline fix">
-              Serverless C.R.U.D. RESTful API
+              CRUD API with Serverless Infrastructure
             </v-card-title>
 
             <v-card-subtitle>This project creates a web API following the standards of REpresentation State Transfer that enables create, read, update, and delete functions to a database. The project uses AWS managed resources for a serverless architecture. It uses an API Gateway with Lambda triggers that interact with a DynamoDB table. All resources are automatically provisioned using the AWS CDK.</v-card-subtitle>
@@ -174,7 +174,7 @@
               <div>
 
             <v-card-title class="headline fix">
-              Artifact Marketplace Servlet
+              Artifact Marketplace Java Servlet
             </v-card-title>
 
             <v-card-subtitle>This project uses Java EE to create a simple one-page marketplace that allows users to add, remove, and view for sale listings from a database.  It accomplished by deploying a *.WAR servlet to an Apache Tomcat webserver. The servlets use JDBC to connect to a MySQL database and persist data.</v-card-subtitle>
@@ -392,9 +392,9 @@
 
                 <div><li>Experience working with databases and SQL</li></div>
 
-                <div><li>Working as a cohesive member of development team to ensure goals are met</li></div>
+                <div><li>Working as a cohesive member of development team to ensure goals are met efficiently</li></div>
 
-                <div><li>Productive strategies for development like build automation and continuous integration</li></div>
+                <div><li>Productive strategies for development such as build automation and continuous integration</li></div>
 
                 
               </ul>

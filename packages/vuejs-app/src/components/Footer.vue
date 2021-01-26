@@ -20,6 +20,7 @@
     
       align="center"
       tile
+      flat
       class="white--text text-center"
       color="#272727"
     >

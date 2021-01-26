@@ -74,6 +74,7 @@
         </v-expansion-panel-header>
           
         <v-expansion-panel-content>
+          <v-container>
           <v-card 
             flat
           >
@@ -86,7 +87,7 @@
   >
     <v-text-field
       v-model="name"
-      :counter="10"
+      :counter="25"
       :rules="nameRules"
       label="Name"
       required
@@ -127,6 +128,7 @@
             <!-- Form -->
 
           </v-card>
+          </v-container>
         </v-expansion-panel-content>
 
       </v-expansion-panel>
