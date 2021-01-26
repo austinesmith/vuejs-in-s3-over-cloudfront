@@ -70,11 +70,14 @@
 
       <v-card-text class="grey--text pt-0">
         
-        This web SPA was created with Vuetify, a JavaScript component manager powered by Vue.js. 
-        It uses the AWS Cloud Development Kit with TypeScript for automated deployment to Amazon Web Services. 
-        The CDK automatically provisions an S3 bucket for static hosting behind the CloudFront Content Delivery Network.
-        It uses Yarn as a package manager and Yarn Workspaces to create a monolithic repository. 
-        Changes are tracked by Git and Github Actions are used for CI/CD.<br> <a href=https://github.com/austinesmith/vuejs-in-s3-over-cloudfront>[View: This Repository]</a><br>
+This website is a single-page application (SPA) powered by the Vue.js JavaScript framework.
+The user interface was built using a component framework called Vuetify for responsive design.
+The application is hosted on the Amazon Web Services (AWS) cloud platform using a serverless architecture.
+The static Vue.js application is stored on a fully managed AWS key/value database called Simple Storage Service (S3).
+The website is accessed via a content delivery network (CDN) called AWS Cloudfront that uses edge caching to lower latency.
+All of the infrastructure was written as code in TypeScript for automatic deployments using the AWS Cloud Development Kit (CDK).
+The project build and dependencies are consolidated into a monolithic repository and managed by Yarn Workspaces.
+Changes are tracked using Git and Github actions are used for continuous integration on push.<br> <a href=https://github.com/austinesmith/vuejs-in-s3-over-cloudfront>[View: This Repository]</a><br>
         
         
       </v-card-text>
@@ -84,7 +87,7 @@
       <v-card-text class="grey--text">
         
         <strong class="white--text">Created by Austin Smith</strong> — <a href="https://opensource.org/licenses/ISC">ISC</a> {{ new Date().getFullYear() }}<br><br>
-        <span font-size="200%"><em>powered by</em></span><br>
+        <span font-size="200%"><em>powered by:</em></span><br>
         <img src="../assets/carousel-images/awswhite.png" width="100">
         
       </v-card-text>
