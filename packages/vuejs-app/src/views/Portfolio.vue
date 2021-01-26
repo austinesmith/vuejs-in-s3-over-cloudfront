@@ -78,7 +78,7 @@
           >
           <expandable-image
       class="image"
-      max-height="200px"
+      max-heightgit="200px"
       :src="require('../assets/card-images/bestfriend.jpg')"
       alt="Dog"
       title="Forest"
@@ -123,7 +123,8 @@
                 outlined
                 to=""
               >
-                <router-link to="/Notfound">Interact</router-link>
+                <router-link to="/DigitalArt">Interact</router-link>
+                
               </v-btn>
             </v-card-actions>
 
@@ -161,7 +162,6 @@
                 text
                 class="ml-2 mt-5"
                 outlined
-                to=""
               >
                 <router-link to="/DigitalArt">View Digital Art</router-link>
               </v-btn>
@@ -199,13 +199,13 @@
         <v-expansion-panel-content>
           <!-- <v-container> -->
             <v-card
-    class="mx"
-    max-width="100%"
-    rounded
-    flat
-  >
+              class="mx"
+              max-width="100%"
+              rounded
 
-  <v-row no-gutters><v-col>
+            >
+
+  <v-row><v-col>
   <v-card-title>Bachelors of Science in Cybersecurity</v-card-title>
     
 

@@ -1,7 +1,7 @@
 <template>
   <v-content>
     <v-container>
-      Digital Art
+      Digital Art to be added
     </v-container>
   </v-content>
 </template>
