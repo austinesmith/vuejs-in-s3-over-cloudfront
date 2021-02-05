@@ -86,7 +86,7 @@
           Welcome to the developer portfolio page of Austin Smith.  This website is a Vue.js single-page application and is automatically deployed with AWS CDK (Amazon Web Services Cloud Developer Kit).  It is meant to be a living document to showcase my skills and what I've been working on recently.
           A summary of technologies used for this project, as well as a link to the source code, can be viewed in the footer.<br><br>
 
-          I have been a computer enthusiast for most of my life and this has enabled me to develop valuable professional skills in design, development, and security.  My current goal is to work in any development position that compliments cloud computing.  My career goal is to become an Cloud Engineer or Solutions Architect.
+          I have been a computer enthusiast for most of my life and this has enabled me to develop valuable professional skills in design, development, and security. I'm currently focusing on projects that take advantage of cloud resources.
           I do development work using AWS in my free time to make sure my skills are constantly improving.  I genuinely enjoy the work.  The arguments behind adopting the cloud are not only compelling, they're incredibly interesting.<br><br>
           
           I'm always chasing goals in my life and I'm very driven to accomplish them.  Or I'm taking steps to learn new information and skills and evolve myself as a person.  When I'm not behind a screen I enjoy being productive by doing DIY projects or helping others.  
