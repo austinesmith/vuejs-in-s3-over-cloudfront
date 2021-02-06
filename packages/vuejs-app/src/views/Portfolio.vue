@@ -141,20 +141,20 @@
               <div>
 
             <v-card-title class="headline fix" word-break="normal">
-              CRUD API with Serverless Infrastructure
+              A Dynamic Web Application with a Serverless Architecture built in CDK with API Gateway, Lambda, Dynamodb, S3, Cloudfront, Route53, and ACM.
             </v-card-title>
 
-            <v-card-subtitle>This project creates a web API following the standards of REpresentation State Transfer that enables create, read, update, and delete functions to a database. The project uses AWS managed resources for a serverless architecture. It uses an API Gateway with Lambda triggers that interact with a DynamoDB table. All resources are automatically provisioned using the AWS CDK.</v-card-subtitle>
+            <v-card-subtitle>This project creates a web API following the standards of REpresentation State Transfer that enables create, read, update, and delete functions to a NoSQL database. All resources are provisioned on services fully managed by AWS for a completely serverless architecture. The back end uses API Gateway to trigger Lambda functions that perform operations on a DynamoDB table. The front end provides the client implementation of the API using a static Vue.js application hosted on S3. All resources are automatically provisioned using the AWS CDK.</v-card-subtitle>
 
             <v-card-actions>
               <v-btn 
                 text
                 class="ml-2 mt-5"
                 outlined
-                href="https://github.com/austinesmith/serverless-crud-restful-api"
+                href="d1yuvz3b02ioxr.cloudfront.net"
                 to=""
               >
-                VIEW REPO
+                LIVE DEMO
                 
               </v-btn>
             </v-card-actions>
