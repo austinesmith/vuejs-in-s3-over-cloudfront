@@ -1,11 +1,11 @@
 a {
-  color: #548cff !important;
+  color: #ff9900 !important;
   text-decoration: none;
   transition: color $animation-speed ease;
 
   &:hover {
     text-decoration: none;
-    color: darken(#4d74cf, 10%);
+    color: darken(#ff9900, 10%) !important;
   }
 }
 

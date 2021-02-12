@@ -29,11 +29,11 @@
 
             <v-toolbar-items>
 
-            <v-btn text>
+            <v-btn text color="#ff9900">
               <router-link to="/">portfolio</router-link>
             </v-btn>
 
-            <v-btn text>
+            <v-btn text color="#ff9900">
               <router-link to="/Contact">contact</router-link>
             </v-btn>
 

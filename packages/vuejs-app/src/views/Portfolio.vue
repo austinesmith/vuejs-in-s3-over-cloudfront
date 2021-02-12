@@ -260,6 +260,7 @@
                 class="ml-2 mt-5"
                 outlined
                 to=""
+                color="#ff9900"
               >
                 <router-link to="/art">VIEW ART</router-link>
                 
