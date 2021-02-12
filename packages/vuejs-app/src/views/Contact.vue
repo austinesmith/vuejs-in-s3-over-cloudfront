@@ -86,7 +86,7 @@
       <!-- About me -->
       <v-expansion-panel>
         <v-expansion-panel-header expand-icon="mdi-menu-down" color="#424242" class="overline">
-          <b>Send Me A Message</b>
+          <div><v-icon class="pr-2" color="#aaa6c9"> mdi-email-variant</v-icon><b>Send Me A Message</b></div>
         </v-expansion-panel-header>
           
         <v-expansion-panel-content>

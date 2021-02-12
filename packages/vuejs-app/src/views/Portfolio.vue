@@ -73,7 +73,7 @@
       <!-- About me -->
       <v-expansion-panel>
         <v-expansion-panel-header expand-icon="mdi-menu-down" color="#424242" class="overline">
-          <b>About Me</b>
+          <div><v-icon color="#aaa6c9" class="pr-1">mdi-account</v-icon><b> About Me</b></div>
         </v-expansion-panel-header>
           
         <v-expansion-panel-content color="#212123" class="my-0 py-0">
@@ -124,7 +124,7 @@
       <v-expansion-panel
       >
         <v-expansion-panel-header expand-icon="mdi-menu-down" color="#424242" class="overline">
-          <b>Projects</b>
+          <div><v-icon color="#aaa6c9" class="pr-1">mdi-projector-screen</v-icon><b> Projects</b></div>
         </v-expansion-panel-header>
 
         <v-expansion-panel-content color="#212123">
@@ -147,7 +147,7 @@
 
             <v-card-title class="fix" word-break="normal">
               <!-- A Dynamic Web Application with a Serverless Architecture built in CDK with API Gateway, Lambda, Dynamodb, S3, Cloudfront, Route53, and ACM. -->
-              C.R.U.D. Database built on Serverless Architecture
+              <span class="yeller">C.R.U.D. Database built on Serverless Architecture</span>
             </v-card-title>
 
             <v-card-text class="my-0"><b>Description: </b>This project creates a web API following the standards of REpresentation State Transfer that enables create, read, update, and delete functions to a NoSQL database. All resources are provisioned on services fully managed by AWS for a completely serverless architecture. The back end uses API Gateway to trigger Lambda functions that perform operations on a DynamoDB table. The front end provides the client implementation of the API using a static Vue.js application hosted on S3. All resources are automatically provisioned using the AWS CDK.</v-card-text>
@@ -206,7 +206,7 @@
               <div>
 
             <v-card-title class="fix">
-              Artifact Marketplace Java Servlet
+              <span class="yeller">Artifact Marketplace Java Servlet</span>
             </v-card-title>
 
             <v-card-text class="my-0"><b>Description:</b> This project uses Java EE to create a simple one-page marketplace that allows users to add, remove, and view for sale listings from a database.  It accomplished by deploying a *.WAR servlet to an Apache Tomcat webserver. The servlets use JDBC to connect to a MySQL database and persist data.</v-card-text>
@@ -249,10 +249,10 @@
               <div>
 
             <v-card-title class="fix">
-              Digital Art
+              <span class="yeller">Digital Art</span>
             </v-card-title>
 
-            <v-card-text class="my-0"><b>Description:</b> Creating digital art is a hobby of mine. This is a collection of professional logos I have created for others from scratch. These were created in Adobe Photoshop. If you like these designs feel free to contact me.</v-card-text>
+            <v-card-text class="my-0"><b>Description:</b> Creating digital art is a hobby of mine. This is a collection of professional logos and other works I have created for myself and others. These were created in Adobe Photoshop. If you like these designs feel free to contact me.</v-card-text>
 
             <v-card-actions>
               <v-btn 
@@ -275,7 +275,7 @@
                 
                 tile
               >
-                <v-img size="150" src="../assets/card-images/photoshop.png"></v-img>
+                <v-img size="150" src="../assets/card-images/ps.png"></v-img>
               </v-avatar>
             </div>
 
@@ -297,8 +297,9 @@
       <v-expansion-panel
       >
         <v-expansion-panel-header expand-icon="mdi-menu-down" color="#424242" class="overline">
-          <b>Education</b>
+          <div><v-icon color="#aaa6c9" class="pr-1">mdi-school</v-icon><b> Education</b></div>
         </v-expansion-panel-header>
+         
 
         <v-expansion-panel-content color="#212123">
           <!-- <v-container> -->
@@ -316,7 +317,7 @@
     
 
     <v-card-subtitle class="ma-0 px-0 pt-2 pb-0">
-      December 2018
+      <span class="bluer">December 2018</span>
     </v-card-subtitle>
 
     <v-card-text class="text--primary ma-0 px-0">
@@ -350,7 +351,7 @@
       <v-expansion-panel
       >
         <v-expansion-panel-header expand-icon="mdi-menu-down" color="#424242" class="overline">
-          <b>Certifications</b>
+          <div><v-icon class="pr-1" color="#aaa6c9">mdi-certificate</v-icon><b> Certifications</b></div>
         </v-expansion-panel-header>
 
         <v-expansion-panel-content color="#212123">
@@ -376,7 +377,7 @@
     
 
     <v-card-subtitle class="pb-0 pt-2">
-      September 2020
+      <span class="bluer">September 2020</span>
     </v-card-subtitle>
 
     <v-card-text class="text--primary">
@@ -400,7 +401,7 @@
     
 
     <v-card-subtitle class="pb-0 pt-2">
-      November 2020
+      <span class="bluer">November 2020</span>
     </v-card-subtitle>
 
     <v-card-text class="text--primary">
@@ -419,7 +420,7 @@
       <v-expansion-panel
       >
         <v-expansion-panel-header expand-icon="mdi-menu-down" color="#424242" class="overline">
-          <b>Skills</b>
+          <div><v-icon class="pr-1" color="#aaa6c9">mdi-brain</v-icon><b> Skills</b></div>
         </v-expansion-panel-header>
 
         <v-expansion-panel-content enabled color="#212123">
