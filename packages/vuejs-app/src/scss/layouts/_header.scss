@@ -1,4 +1,6 @@
 header {
+
+
   .v-toolbar__title {
     font-weight: 600;
     font-size: large;
@@ -11,6 +13,13 @@ header {
 
 
   .v-toolbar__content {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
     @media only screen and (max-width: 599px) {
       padding: 1;
       

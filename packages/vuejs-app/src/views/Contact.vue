@@ -2,6 +2,7 @@
   <v-content>
     <v-container>
 
+      <!--
       <div class="d-flex flex-no-wrap justify-space-between">
             <div>
     
@@ -13,6 +14,7 @@
   src="../assets/card-images/contact2.png"
 ></v-img>
 </div></div>
+-->
 
     <!-- Contact Card -->
     <v-card
@@ -26,7 +28,7 @@
     >
 
     <v-card-title>
-      <b>Cloud Engineer in Omaha, NE</b>
+      <v-spacer></v-spacer><b>Cloud Engineer in Omaha, NE</b>
     </v-card-title></v-img>
 
     <v-card-title>

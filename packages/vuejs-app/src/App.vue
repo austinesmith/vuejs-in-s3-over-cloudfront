@@ -3,7 +3,7 @@
     
   <v-app>
     <v-app-bar
-      app
+      padless
       flat
       dark
     >

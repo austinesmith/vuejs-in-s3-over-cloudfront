@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+// font-family: 'Roboto Condensed', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+// font-family: 'Dosis', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+// font-family: 'Noto Sans', sans-serif;
+
 // application
 .v-application {
 
@@ -16,7 +23,7 @@
 //credentials
 #credentials {
   line-height: 150%;
-  font-size: .9em;
+  font-size: .8em;
 }
 #portpad {
   class: "mx-5";
@@ -93,4 +100,16 @@ iframe {
 .notFound .fas {
   font-size: 40px;
   margin: 0 0 40px;
+}
+
+//v-card
+.v-card__title {
+  font-size: 1.3rem !important;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.v-card__text {
+  font-family: 'Noto Sans', sans-serif;
+}
+.v-card__subtitle {
+  font-family: 'Noto Sans', sans-serif;
 }

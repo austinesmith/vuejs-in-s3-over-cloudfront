@@ -69,7 +69,6 @@
       </v-card-text>
 
       <v-card-text class="grey--text pt-0">
-        <SPAN STYLE="font-size:10px">
 This website is a single-page application (SPA) powered by the Vue.js JavaScript framework.
 The user interface was built using a component framework called Vuetify for responsive design.
 The application is hosted on the Amazon Web Services (AWS) cloud platform using a serverless architecture.
@@ -78,7 +77,7 @@ The website is accessed via a content delivery network (CDN) called AWS Cloudfro
 All of the infrastructure was written as code in TypeScript for automatic deployments using the AWS Cloud Development Kit (CDK).
 The project build and dependencies are consolidated into a monolithic repository and managed by Yarn Workspaces.
 Changes are tracked using Git and Github actions are used for continuous integration on push.<br> <a href=https://github.com/austinesmith/vuejs-in-s3-over-cloudfront>[View: This Repository]</a><br>
-        </SPAN>
+        
         
       </v-card-text>
 
