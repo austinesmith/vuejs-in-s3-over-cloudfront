@@ -98,6 +98,7 @@
 
             <!-- Form -->
               <v-form
+    id="contactForm"
     ref="form"
     @submit.prevent="sendEmail"
     v-model="valid"
@@ -214,15 +215,7 @@ export default {
             }
           );
         e.target.reset();
-        alert(
-          "Your message has been sent to Austin."
-      )
-      
-
-
-      
-      // Reset form field
-      
+      document.getElementById("contactForm").innerHTML="Success! Thank you for sending me a message. I will respond to the email provided in the message as soon as I can.";
       }
     }
 }

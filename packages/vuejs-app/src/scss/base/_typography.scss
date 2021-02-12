@@ -1,10 +1,15 @@
 a {
-  color: #ff9900;
+  color: #548cff !important;
   text-decoration: none;
   transition: color $animation-speed ease;
 
   &:hover {
     text-decoration: none;
-    color: darken(#ff9900, 60%);
+    color: darken(#4d74cf, 10%);
   }
 }
+
+a.primary--text {
+  color: #e5e9ec !important;
+  caret-color: #f4f4f4 !important;
+  }

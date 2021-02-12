@@ -27,7 +27,7 @@
     >
       <v-card-text>
         <v-btn
-          class="mx-8 white--text"
+          class="mx-5 white--text"
           icon
           href="https://github.com/austinesmith"
           target="_blank"
@@ -40,7 +40,7 @@
         </v-btn>
 
         <v-btn
-          class="mx-8 white--text"
+          class="mx-5 white--text"
           icon
           href="https://www.linkedin.com/in/austinfosec/"
           target="_blank"
@@ -53,7 +53,22 @@
         </v-btn>
 
         <v-btn
-          class="mx-8 white--text"
+          class="mx-5 white--text"
+          icon
+          href="https://hub.docker.com/u/aesmith1990"
+          target="_blank"
+          alt="Docker Hub"
+        >
+          <v-icon size="40px"
+            class="my-8"
+          >
+            mdi-docker
+          </v-icon>
+        </v-btn>
+
+
+        <v-btn
+          class="mx-5 white--text"
           icon
           href="mailto:austinfosec@gmail.com"
           target="_blank"
