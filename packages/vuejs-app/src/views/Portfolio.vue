@@ -39,7 +39,7 @@
                 class="ma-3 pl-3"
                 size="200"
               >
-                <v-img src="../assets/card-images/portrait.jpg"></v-img>
+                <v-img class="expimg" src="../assets/card-images/portrait.jpg"></v-img>
               </v-avatar>
 </div>
 
@@ -79,7 +79,8 @@
         <v-expansion-panel-content color="#212123" class="my-0 py-0">
           
           <v-container class="my-0 py-0">
-          <v-card class="pa-5 my-0" flat tile font-size="2em">
+          <v-card class="pa-3 my-0" flat tile font-size="2em">
+            <v-card-text>
             
           Welcome to the developer portfolio page of Austin Smith.  This website is a Vue.js single-page application and is automatically deployed with AWS CDK (Amazon Web Services Cloud Developer Kit).  It is meant to be a living document to showcase my skills and what I've been working on recently.
           A summary of technologies used for this project, as well as a link to the source code, can be viewed in the footer.<br><br>
@@ -93,14 +94,18 @@
           My favorite way to unwind is to visit the great outdoors with my dog Forest.  He's a golden-retriever/border-collie mix and the best friend I'll ever have.  I also love traveling, cooking great food, graphic design, meeting new people, and riding my motorcycle.<br><br>
          
          
-
+            </v-card-text>
           <v-card
           
             max-width="250px"
             tile
             flat
+            class="px-5 pb-5 pt-0 mb-0"
           >
+          
+
           <expandable-image
+          close-on-background-click
       width="50%"
       :src="require('../assets/card-images/bestfriend.jpg')"
       alt="Dog"
@@ -131,7 +136,7 @@
         <!-- 1 -->
         <v-col cols="12">
           <v-card
-            color="#12121b"
+            color="#262d3c"
             dark
             tile
             class="my-3 px-0"
@@ -145,7 +150,7 @@
               C.R.U.D. Database built on Serverless Architecture
             </v-card-title>
 
-            <v-card-subtitle class="my-0"><b>Description: </b>This project creates a web API following the standards of REpresentation State Transfer that enables create, read, update, and delete functions to a NoSQL database. All resources are provisioned on services fully managed by AWS for a completely serverless architecture. The back end uses API Gateway to trigger Lambda functions that perform operations on a DynamoDB table. The front end provides the client implementation of the API using a static Vue.js application hosted on S3. All resources are automatically provisioned using the AWS CDK.</v-card-subtitle>
+            <v-card-text class="my-0"><b>Description: </b>This project creates a web API following the standards of REpresentation State Transfer that enables create, read, update, and delete functions to a NoSQL database. All resources are provisioned on services fully managed by AWS for a completely serverless architecture. The back end uses API Gateway to trigger Lambda functions that perform operations on a DynamoDB table. The front end provides the client implementation of the API using a static Vue.js application hosted on S3. All resources are automatically provisioned using the AWS CDK.</v-card-text>
 
             <v-card-actions>
               <v-btn 
@@ -191,7 +196,7 @@
       
         <v-col cols="12">
           <v-card
-            color="#0d0d16"
+            color="#1a202c"
             dark
             tile
             class="mb-3"
@@ -204,7 +209,7 @@
               Artifact Marketplace Java Servlet
             </v-card-title>
 
-            <v-card-subtitle class="my-0"><b>Description:</b> This project uses Java EE to create a simple one-page marketplace that allows users to add, remove, and view for sale listings from a database.  It accomplished by deploying a *.WAR servlet to an Apache Tomcat webserver. The servlets use JDBC to connect to a MySQL database and persist data.</v-card-subtitle>
+            <v-card-text class="my-0"><b>Description:</b> This project uses Java EE to create a simple one-page marketplace that allows users to add, remove, and view for sale listings from a database.  It accomplished by deploying a *.WAR servlet to an Apache Tomcat webserver. The servlets use JDBC to connect to a MySQL database and persist data.</v-card-text>
 
             <v-card-actions>
               <v-btn 
@@ -234,7 +239,7 @@
         <!-- 3 -->
         <v-col cols="12">
           <v-card
-            color="#12121b"
+            color="#262d3c"
             dark
             tile
             class="mb-3" 
@@ -247,7 +252,7 @@
               Digital Art
             </v-card-title>
 
-            <v-card-subtitle class="my-0"><b>Description:</b> Creating digital art is a hobby of mine. This is a collection of professional logos I have created for others from scratch. These were created in Adobe Photoshop. If you like these designs feel free to contact me.</v-card-subtitle>
+            <v-card-text class="my-0"><b>Description:</b> Creating digital art is a hobby of mine. This is a collection of professional logos I have created for others from scratch. These were created in Adobe Photoshop. If you like these designs feel free to contact me.</v-card-text>
 
             <v-card-actions>
               <v-btn 
@@ -323,7 +328,7 @@
     
 
     <expandable-image
-
+      close-on-background-click
       :src="require('../assets/card-images/degree.jpg')"
       alt="Cybersecurity Degree"
       title="UNO Cybersecurity Degree"
@@ -350,7 +355,7 @@
         <v-expansion-panel-content color="#212123">
           <!-- AWS CERTS -->
           <v-container class="py-0">
-            <v-row><v-col md="6" class="pr-0" height="100%">
+            <v-row><v-col md="6" class="pr-2" height="100%">
            <v-card
     class="pa-0 ma-0"
     flat
@@ -359,7 +364,7 @@
 
 
     <expandable-image
-      class="image"
+      close-on-background-click
       :src="require('../assets/card-images/ccpr.jpg')"
       alt="AWS Certification"
       title="AWS Certified Cloud Practitioner"
@@ -377,14 +382,14 @@
       <div><a href="https://aws.amazon.com/certification/certified-cloud-practitioner/">AWS CLF-C01</a></div>
     </v-card-text>
   </v-card>
-  </v-col><v-col md="6" height="auto">
+  </v-col><v-col md="6" class="pl-2" height="auto">
             <v-card
     class="mx-auto"
     flat
     color="#1e1e1e"
   >
     <expandable-image
-      class="image"
+      close-on-background-click
       :src="require('../assets/card-images/saar.jpg')"
       alt="AWS Certification"
       title="AWS Certified Solutions Architect - Associate"

@@ -68,7 +68,7 @@
 
       </v-card-text>
 
-      <v-card-text class="grey--text pt-0">
+      <v-card-text class="footertext grey--text pt-0">
 This website is a single-page application (SPA) powered by the Vue.js JavaScript framework.
 The user interface was built using a component framework called Vuetify for responsive design.
 The application is hosted on the Amazon Web Services (AWS) cloud platform using a serverless architecture.

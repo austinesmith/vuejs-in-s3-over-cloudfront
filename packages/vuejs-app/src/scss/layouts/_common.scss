@@ -102,6 +102,11 @@ iframe {
   margin: 0 0 40px;
 }
 
+.expimg {
+  border: #ffffff 7px solid;
+  display:block;
+}
+
 //v-card
 .v-card__title {
   font-size: 1.3rem !important;
@@ -109,7 +114,15 @@ iframe {
 }
 .v-card__text {
   font-family: 'Noto Sans', sans-serif;
+  font-size: .7rem;
+  line-height: 170%;
 }
 .v-card__subtitle {
   font-family: 'Noto Sans', sans-serif;
+}
+
+.footertext {
+  font-size: .6rem;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 150%;
 }
