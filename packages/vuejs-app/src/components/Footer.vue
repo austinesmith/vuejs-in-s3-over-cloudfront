@@ -87,7 +87,7 @@ Changes are tracked using Git and Github actions are used for continuous integra
         
         <strong class="white--text">Created by Austin Smith</strong> — <a href="https://opensource.org/licenses/ISC">ISC</a> {{ new Date().getFullYear() }}<br><br>
         <span font-size="200%"><em>powered by:</em></span><br>
-        <img src="../assets/carousel-images/awswhite.png" width="100">
+        <img src="../assets/carousel-images/awsfooter.png" width="100">
         
       </v-card-text>
       

@@ -30,13 +30,13 @@
           <v-card
             dark
             flat
-            
+            tile
             id="portpad"
           >
             <div class="d-flex flex-no-wrap">
             <div>
               <v-avatar
-                class="ma-3 pl-3"
+                class="ma-3 pl-1"
                 size="200"
               >
                 <v-img class="expimg" src="../assets/card-images/portrait.jpg"></v-img>
