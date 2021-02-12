@@ -9,7 +9,7 @@
             </div><div>
               <v-img
               width="100%"
-              max-width="110"
+              max-width="75"
 
   src="../assets/card-images/portfolio2.png"
 ></v-img>
@@ -18,8 +18,6 @@
 
     <v-card
     class="mb-3"
-    tile
-    shaped
   >
     <!-- start col -->
     
@@ -37,18 +35,17 @@
             <div class="d-flex flex-no-wrap">
             <div>
               <v-avatar
-                class="ma-3"
+                class="ma-3 pl-3"
                 size="200"
-                tile
               >
-                <v-img src="../assets/card-images/squareport.jpg"></v-img>
+                <v-img src="../assets/card-images/portrait.jpg"></v-img>
               </v-avatar>
 </div>
 
               <div>
                 
 
-                <v-card-subtitle><strong>Cloud Engineer in Omaha, NE</strong></v-card-subtitle>
+                <v-card-subtitle><strong>Cloud Engineer</strong> in <strong>Omaha, NE</strong></v-card-subtitle>
 
                 <v-card-text id="credentials">
                   <ul>
@@ -151,10 +148,21 @@
                 text
                 class="ml-2 mt-5"
                 outlined
-                href="d1yuvz3b02ioxr.cloudfront.net"
+                href="https://d1yuvz3b02ioxr.cloudfront.net/"
                 to=""
               >
                 LIVE DEMO
+                
+              </v-btn>
+              <br>
+              <v-btn 
+                text
+                class="ml-2 mt-5"
+                outlined
+                href="https://github.com/austinesmith/serverless-crud-restful-api"
+                to=""
+              >
+                GITHUB REPO
                 
               </v-btn>
             </v-card-actions>

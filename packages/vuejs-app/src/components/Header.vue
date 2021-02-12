@@ -7,7 +7,7 @@
               width="100%"
               max-width="175"
 
-  src="../assets/card-images/banner.png"
+  src="../assets/card-images/banner2.png"
 ></v-img></v-toolbar-title>
 
             <v-spacer></v-spacer>

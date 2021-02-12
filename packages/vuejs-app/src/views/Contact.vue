@@ -8,7 +8,7 @@
             </div><div>
               <v-img
               width="100%"
-              max-width="110"
+              max-width="65"
 
   src="../assets/card-images/contact2.png"
 ></v-img>
