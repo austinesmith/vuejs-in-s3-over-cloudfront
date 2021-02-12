@@ -87,7 +87,7 @@
       <!-- About me -->
       <v-expansion-panel>
         <v-expansion-panel-header expand-icon="mdi-menu-down" color="#424242" class="overline">
-          <b>Leave Me A Message</b>
+          <b>Send Me A Message</b>
         </v-expansion-panel-header>
           
         <v-expansion-panel-content>
@@ -99,8 +99,10 @@
             <!-- Form -->
               <v-form
     ref="form"
+    @submit.prevent="sendEmail"
     v-model="valid"
     lazy-validation
+    
   >
     <v-text-field
       v-model="name"
@@ -108,6 +110,7 @@
       :rules="nameRules"
       label="Name"
       required
+      name="name"
     ></v-text-field>
 
     <v-text-field
@@ -115,6 +118,8 @@
       :rules="emailRules"
       label="E-mail"
       required
+      type="email"
+      name="email"
     ></v-text-field>
 
         <v-textarea
@@ -122,13 +127,14 @@
       :rules="messageRules"
       label="Message"
       required
+      name="message"
         ></v-textarea>
 
     <v-btn
       :disabled="!valid"
+      type="submit"
       color="success"
       class="mr-4"
-      @click="validate"
     >
       Submit
     </v-btn>
@@ -157,6 +163,7 @@
 </template>
 
 <script>
+import emailjs from 'emailjs-com';
 
 export default {
   name: 'Contact',
@@ -187,12 +194,36 @@ export default {
 
     
     methods: {
-      validate () {
-        this.$refs.form.validate()
-      },
       reset () {
         this.$refs.form.reset()
       },
-    },
-};
+      sendEmail: (e) => {
+        emailjs
+          .sendForm(
+            "service_6avd84s",
+            "template_tfk1ats",
+            e.target,
+            "user_SelNr45w7Q0g6J4QPB8hv"
+          )
+          .then(
+            (result) => {
+              console.log("SUCCESS!", result.status, result.text);
+            },
+            (error) => {
+             console.log("FAILED...", error);
+            }
+          );
+        e.target.reset();
+        alert(
+          "Your message has been sent to Austin."
+      )
+      
+
+
+      
+      // Reset form field
+      
+      }
+    }
+}
 </script>
