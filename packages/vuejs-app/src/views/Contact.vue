@@ -42,7 +42,6 @@
 
     <v-card-actions>
       <v-btn
-        color="blue lighten-2"
         text
         @click="show = !show"
       >
