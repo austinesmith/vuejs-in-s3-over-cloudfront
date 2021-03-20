@@ -86,12 +86,12 @@
           A summary of technologies used for this project, as well as a link to the source code, can be viewed in the footer.<br><br>
 
           I have been a computer enthusiast for most of my life and this has enabled me to develop valuable professional skills in design, development, and security. My current focus is on projects that take advantage of cloud resources.
-          I do development work using AWS in my free time to make sure my skills are constantly improving.  I genuinely enjoy the work.  The arguments behind adopting the cloud are not only compelling, they're interesting.<br><br>
+          I do development work using AWS in my free time to make sure my skills are constantly improving.  I genuinely enjoy the work.  The arguments behind adopting the cloud are as interesting as they are compelling.<br><br>
           
           I'm always chasing goals in my life and I'm very driven to accomplish them.  Or I'm taking steps to learn new information and skills and evolve myself as a person.  When I'm not behind a screen I enjoy being productive by doing DIY projects or helping others.  
           I always make an attempt to fix problems on my own, no matter how challenging.  There is no greater feeling than basking in the glory of your accomplishments!<br><br>
           
-          My favorite way to unwind is to visit the great outdoors with my dog Forest.  He's a golden-retriever/border-collie mix and the best friend I'll ever have.  I also love traveling, cooking great food, graphic design, meeting new people, and riding my motorcycle.<br><br>
+          My favorite way to unwind is to visit the great outdoors with my dog Forest.  He's a golden-retriever/border-collie mix and the best friend I'll ever have.  I also love traveling, cooking great food, graphic design, fixing and building things, meeting new people, helping others/teaching, and riding my motorcycle.<br><br>
          
          
             </v-card-text>
@@ -132,8 +132,112 @@
           
       
       <v-row dense>
-
         <!-- 1 -->
+<v-col cols="12">
+          <v-card
+            color="#262d3c"
+            dark
+            tile
+            class="my-3 px-0"
+          >
+
+              <div class="d-flex flex-no-wrap justify-space-between">
+              <div>
+
+            <v-card-title class="fix" word-break="normal">
+              <!-- A Dynamic Web Application with a Serverless Architecture built in CDK with API Gateway, Lambda, Dynamodb, S3, Cloudfront, Route53, and ACM. -->
+              <span class="yeller">Papio Cloud Website</span>
+            </v-card-title>
+
+            <v-card-text class="my-0"><b>Description: </b>This project is the React+Typescript website I'm currently making for Cloud company called Papio Cloud.  It uses a responsive design to maintain a clean look on any device.  The navigation switches from an app bar to an app drawer based on the viewport. It uses easy-peasy as a data store to dynamically display content and make updating easier.  It has a very polished look featuring many aesthetic upgrades such as the nav bar only elevating on scroll and an animated footer.  The entire website is created in React using only Typescript and hosted on AWS S3.</v-card-text>
+
+            <v-card-actions>
+              <v-btn 
+                text
+                class="ml-2 mt-5"
+                outlined
+                href="https://react-test.papiocloud.com/"
+                to=""
+              >
+                LIVE DEMO
+                
+              </v-btn>
+              <br>
+              
+            </v-card-actions>
+
+              </div>
+
+              <v-avatar
+                class="ma-5"
+                size="50"
+                tile
+              >
+                <v-img src="../assets/card-images/papio.png"></v-img>
+              </v-avatar>
+            </div>
+
+          </v-card>
+        </v-col>
+
+        <!-- 2 -->
+<v-col cols="12">
+          <v-card
+            color="#262d3c"
+            dark
+            tile
+            class="my-3 px-0"
+          >
+
+              <div class="d-flex flex-no-wrap justify-space-between">
+              <div>
+
+            <v-card-title class="fix" word-break="normal">
+              <!-- A Dynamic Web Application with a Serverless Architecture built in CDK with API Gateway, Lambda, Dynamodb, S3, Cloudfront, Route53, and ACM. -->
+              <span class="yeller">Another Portfolio using React with Typescript</span>
+            </v-card-title>
+
+            <v-card-text class="my-0"><b>Description: </b>This project creates a new portfolio similar to this one only using React, Typescript, and Material-UI instead of Vue, Typescript, and Vuetify.  This portfolio adds a light and dark mode feature.</v-card-text>
+
+            <v-card-actions>
+              <v-btn 
+                text
+                class="ml-2 mt-5"
+                outlined
+                href="https://d1yuvz3b02ioxr.cloudfront.net/"
+                to=""
+              >
+                LIVE DEMO
+                
+              </v-btn>
+              <br>
+              <v-btn 
+                text
+                class="ml-2 mt-5"
+                outlined
+                href="https://github.com/austinesmith/serverless-crud-restful-api"
+                to=""
+              >
+                GITHUB REPO
+                
+              </v-btn>
+            </v-card-actions>
+
+              </div>
+
+              <v-avatar
+                class="ma-5"
+                size="50"
+                tile
+              >
+                <v-img src="../assets/card-images/reactandTStransparent.png"></v-img>
+              </v-avatar>
+            </div>
+
+          </v-card>
+        </v-col>
+
+        <!-- 3 -->
         <v-col cols="12">
           <v-card
             color="#262d3c"
@@ -147,7 +251,7 @@
 
             <v-card-title class="fix" word-break="normal">
               <!-- A Dynamic Web Application with a Serverless Architecture built in CDK with API Gateway, Lambda, Dynamodb, S3, Cloudfront, Route53, and ACM. -->
-              <span class="yeller">C.R.U.D. Database built on Serverless Architecture</span>
+              <span class="yeller">C.R.U.D. API built for Serverless Architectures</span>
             </v-card-title>
 
             <v-card-text class="my-0"><b>Description: </b>This project creates a web API following the standards of REpresentation State Transfer that enables create, read, update, and delete functions to a NoSQL database. All resources are provisioned on services fully managed by AWS for a completely serverless architecture. The back end uses API Gateway to trigger Lambda functions that perform operations on a DynamoDB table. The front end provides the client implementation of the API using a static Vue.js application hosted on S3. All resources are automatically provisioned using the AWS CDK.</v-card-text>
@@ -428,21 +532,21 @@
           <v-card flat tile class="px-3" color="#1e1e1e">
             <v-card-text class="text--primary; justify-center">
               <ul>
-                <div><li>Using JavaScript, Vue.js, and Vuetify to create responsive user interfaces</li></div>
+                <div><li>Using Typescript, React.js, Material-UI, and Gatsby to create progressive web applications</li></div>
+
+                <div><li>Using JavaScript, Vue.js, and Vuetify to create attractive single page applications</li></div>
       
-                <div><li>Building infrastructure and serverless applications using CDK and CloudFormation in AWS</li></div>
+                <div><li>Building cloud infrastructures and serverless architectures as code using CDK and CloudFormation in AWS</li></div>
 
                 <div><li>Experience with Java, C, scripting, and using the command line interface</li></div>
 
-                <div><li>Knowledgeable in best practices used for safeguarding information security</li></div>
+                <div><li>Knowledgeable in best practices used to strengthen information security</li></div>
 
                 <div><li>Experience working with databases and SQL</li></div>
 
-                <div><li>Working as a cohesive member of development team to ensure goals are met efficiently</li></div>
+                <div><li>Working efficiently by leveraging automation, version control, and rapid development</li></div>
 
-                <div><li>Productive strategies for development such as build automation and continuous integration</li></div>
-
-                
+                <div><li>Best Practices for development such as build automation and continuous integration</li></div>
               </ul>
     </v-card-text>
           </v-card>

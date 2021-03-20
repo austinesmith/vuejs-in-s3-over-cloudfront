@@ -70,7 +70,7 @@
           <a href="https://www.linkedin.com/in/austinfosec/">linkedin.com/in/austinfosec</a><br><br>
 
           <b>Download My Resume:</b><br>
-          <a :href="require('../assets/pdfs/austinsmithresume2021.pdf')" target="_blank">Most Recent Resume (*.pdf)</a><br><br>
+          <a :href="require('../assets/pdfs/austinsmith-resume-april2021.pdf')" target="_blank">Most Recent Resume (*.pdf)</a><br><br>
 
           <b>Paypal:</b><br>
           <a href="https://www.paypal.me/austinesmith/">paypal.me/austinesmith</a><br><br>
